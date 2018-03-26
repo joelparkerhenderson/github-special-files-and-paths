@@ -10,9 +10,9 @@ GitHub special files include `README`, `LICENSE`, etc. GitHub special paths incl
 
 GitHub special files can typically be written with a variety of formats and file name extensions:
 
-  * using freeform text, typically with no file extension or `.txt`, such as `README` or `README.txt`.
+  * using freeform text, such as `README` or `README.txt`.
 
-  * using Markdown, typically with a file extension `.md` or `.markdown`, such as `README.md` or `README.markdown`.
+  * using Markdown, such as `README.md` or `README.markdown`.
 
   * TODO: any other formats, such as ASCIIDOC?
  
@@ -30,7 +30,10 @@ GitHub special files are typicallylocated in special paths a.k.a. special direct
 
   * There are exceptions, such as the PULL_REQUESTS_TEMPLATES directory, which contains special files.
 
-These files are sometimes also known as:
+
+## Also known as
+
+The special files and paths are sometimes also known as:
 
   * community health files
 
@@ -39,6 +42,9 @@ These files are sometimes also known as:
   * well-known files and well-known directories 
 
   * TODO: any other terminology?
+
+
+## History
 
 Some of the file names have a very long history.
 
