@@ -1,6 +1,6 @@
 # GitHub special files and paths
 
-GitHub special files include `README`, `LICENSE`, `CONTRIBUTING`, and more. GitHub special paths include the root directory `/`, `/.github`, `/docs`, and more. GitHub tooling recognizes these files and paths to help automate repository health checks and developer interactions.  This page summaries these special files and paths. We ask GitHub staff to consider creating official documentation like this.
+GitHub special files include `README`, `LICENSE`, `CONTRIBUTING`, etc. GitHub special paths include the root directory `/`, `/.github`, `/docs`, etc. These help automate repository health checks and developer interactions.  This page summarizes these files and paths. We welcome pull requests and welcome GitHub staff creating an official page that replaces this page.
 
 * [](#)
 
