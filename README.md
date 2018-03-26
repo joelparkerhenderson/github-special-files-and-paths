@@ -8,6 +8,7 @@ GitHub special files include `README`, `LICENSE`, etc. GitHub special paths incl
 * [Community profile checklist](#community-profile-checklist)
 * [CODE_OF_CONDUCT](#code_of_conduct)
 * [CODEOWNERS](#codeowners)
+* [LICENSE](#license)
 
 
 ## Introduction
@@ -18,10 +19,11 @@ GitHub special files can typically be written with a variety of formats and file
 
   * using Markdown, such as `README.md` or `README.markdown`.
 
-  * TODO: any other formats, such as ASCIIDOC?
- 
   * There are exceptions, such as the `CODEOWNERS` file.
 
+  * TODO: any other formats, such as ASCIIDOC?
+ 
+ 
 GitHub special files are typicallylocated in special paths a.k.a. special directories:
  
   * `/` is the repository root directory
@@ -87,4 +89,15 @@ Code owners are automatically requested for review when someone opens a pull req
 https://help.github.com/articles/setting-guidelines-for-repository-contributors/
 
 CONTRIBUTING is a file that explains how people should contribute, and that can help verify people are submitting well-formed pull requests and opening useful issues.
+
+
+## LICENSE
+
+https://help.github.com/articles/adding-a-license-to-a-repository/
+
+LICENSE is a file that explains the legal licensing, such as any rights, any restrictions, any regulations, etc. 
+
+If you include a detectable license in your repository, people who visit your repository will see it at the top of the repository page.
+
+
 
