@@ -16,7 +16,7 @@ GitHub special files can typically be written with a variety of formats and file
 
   * TODO: any other formats, such as ASCIIDOC?
  
-  * There are exceptions, such as the CODEOWNERS file, which uses a special syntax.
+  * There are exceptions, such as the `CODEOWNERS` file.
 
 GitHub special files are typicallylocated in special paths a.k.a. special directories:
  
@@ -28,7 +28,18 @@ GitHub special files are typicallylocated in special paths a.k.a. special direct
 
   * TODO: any other special directories?
 
-  * There are exceptions, such as the PULL_REQUESTS_TEMPLATES directory, which contains special files.
+  * There are exceptions, such as the `PULL_REQUESTS_TEMPLATES` directory.
+
+
+## History
+
+Some of the file names have a very long history.
+
+  * For example the file name `README` is a convention that goes far back to the 1980's or earlier. 
+
+Some of the file names are unique to GitHub as far as we know.
+
+  * For example the name `CODEOWNERS` and its syntax were created by GitHub staff.
 
 
 ## Also known as
@@ -42,17 +53,6 @@ The special files and paths are sometimes also known as:
   * well-known files and well-known directories 
 
   * TODO: any other terminology?
-
-
-## History
-
-Some of the file names have a very long history.
-
-  * For example the file name `README` is a convention that goes far back to the 1980's or earlier. 
-
-Some of the file names are unique to GitHub as far as we know.
-
-  * For example the name `CODEOWNERS` and its syntax were created by GitHub staff.
 
 
 ## Community profile checklist
