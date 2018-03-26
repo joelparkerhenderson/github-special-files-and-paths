@@ -9,6 +9,7 @@ GitHub uses special files such as `README` and `LICENSE`, and special paths such
 * [CODE_OF_CONDUCT](#code_of_conduct)
 * [CODEOWNERS](#codeowners)
 * [CONTRIBUTING](#contributing)
+* [ISSUE_TEMPLATE](#issue_template)
 * [LICENSE](#license)
 * [PULL_REQUEST_TEMPLATE](#pull_request_template)
 * [README](#readme)
@@ -96,6 +97,17 @@ Code owners are automatically requested for review when someone opens a pull req
 https://help.github.com/articles/setting-guidelines-for-repository-contributors/
 
 CONTRIBUTING is a file that explains how people should contribute, and that can help verify people are submitting well-formed pull requests and opening useful issues.
+
+
+## ISSUE_TEMPLATE
+
+https://help.github.com/articles/creating-an-issue-template-for-your-repository/
+
+When you add an issue template to your repository, project contributors will automatically see the template's contents in the issue body. Templates customize and standardize the information you'd like included when contributors open issues.
+
+https://blog.github.com/2018-01-25-multiple-issue-and-pull-request-templates/
+
+To add multiple issue templates to a repository create an `ISSUE_TEMPLATE/` directory in your project root. Within that `ISSUE_TEMPLATE/` directory you can create as many issue templates as you need, for example `ISSUE_TEMPLATE/bugs.md`.
 
 
 ## LICENSE
