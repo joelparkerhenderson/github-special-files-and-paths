@@ -10,9 +10,9 @@ GitHub special files include `README`, `LICENSE`, etc. GitHub special paths incl
 
 GitHub special files can typically be written with a variety of formats and file name extensions:
 
-  * using freeform text, typically with no file name extension (such as `README`) or the file name extension `.txt` (such as `README.txt`).
+  * using freeform text, typically with no file extension or `.txt`, such as `README` or `README.txt`.
 
-  * using Markdown, typically with a file name name extension `.md` (such as `README.md`) or `.markdown` (such as `README.markdown`)
+  * using Markdown, typically with a file extension `.md` or `.markdown`, such as `README.md` or `README.markdown`.
 
   * TODO: any other formats, such as ASCIIDOC?
  
