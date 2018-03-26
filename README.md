@@ -7,6 +7,7 @@ GitHub special files include `README`, `LICENSE`, etc. GitHub special paths incl
 * [Also known as](#also-known-as)
 * [Community profile checklist](#community-profile-checklist)
 * [CODE_OF_CONDUCT](#code_of_conduct)
+* [CODEOWNERS](#codeowners)
 
 
 ## Introduction
@@ -23,17 +24,17 @@ GitHub special files can typically be written with a variety of formats and file
 
 GitHub special files are typicallylocated in special paths a.k.a. special directories:
  
-  * `/` (the repository root directory)
+  * `/` is the repository root directory
 
-  * `/.github` (a special purpose directory for the company)
+  * `/.github` is a dot files directory
 
-  * `/docs` (a typical documention directory)
-
-  * TODO: any other special directories?
+  * `/docs` is a typical documention directory
 
   * There are exceptions, such as the `PULL_REQUESTS_TEMPLATES` directory.
 
+  * TODO: any other special directories?
 
+ 
 ## History
 
 Some of the file names have a very long history.
