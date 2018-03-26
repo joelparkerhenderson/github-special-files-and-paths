@@ -10,6 +10,7 @@ GitHub special files include `README`, `LICENSE`, etc. GitHub special paths incl
 * [CODEOWNERS](#codeowners)
 * [LICENSE](#license)
 * [PULL_REQUEST_TEMPLATE](#pull_request_template)
+* [README](#readme)
 
 
 ## Introduction
@@ -112,4 +113,11 @@ When you add a pull request template to your repository, project contributors wi
 You can create a PULL_REQUEST_TEMPLATE/ subdirectory in any of the supported folders to contain multiple pull request templates. Use the template query parameter to specify the template that will automatically fill the pull request body. For more information, see "[About automation for issues and pull requests with query parameters.](https://help.github.com/articles/about-automation-for-issues-and-pull-requests-with-query-parameters/)"
 
 
+## README
+
+https://help.github.com/articles/about-readmes/
+
+README is a file that explains your project, what it does, why it is useful, etc. The README file is often the first item a visitor will see when visiting your repository. 
+
+If you put your README file in your repository's root, docs, or hidden .github directory, GitHub will recognize and automatically surface your README to repository visitors.
 
