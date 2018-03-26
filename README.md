@@ -41,13 +41,13 @@ GitHub special files are typicallylocated in special paths a.k.a. special direct
  
 ## History
 
-Some of the file names have a very long history.
+Some of the special conventions have a very long history:
 
-  * For example the file name `README` is a convention that goes far back to the 1980's or earlier. 
+  * For example `README` and `LICENSE` are naming conventions that go far back to the 1980's or earlier. 
 
-Some of the file names are unique to GitHub as far as we know.
+Some of the special conventions are unique to GitHub as far as we know:
 
-  * For example the name `CODEOWNERS` and its syntax were created by GitHub staff.
+  * For example `CODEOWNERS` and `PULL_REQUEST_TEMPLATE` its were created by GitHub staff.
 
 
 ## Also known as
