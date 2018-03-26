@@ -14,9 +14,9 @@ GitHub special files can typically be written with a variety of formats and file
 
   * using Markdown, typically with a file name name extension "`.md`" or "`.markdown`".
 
+  * TODO: any other formats, such as ASCIIDOC?
+ 
 There are exceptions, such as the CODEOWNERS file, which uses a special syntax.
-
-TODO: how to add other formats, such as ASCIIDOC?
 
 GitHub special files can typically be located in three special directories:
  
@@ -26,17 +26,27 @@ GitHub special files can typically be located in three special directories:
 
   * `/docs` (a typical documention directory)
 
+  * TODO: any other special directories?
+
 There are exceptions, such as the PULL_REQUESTS_TEMPLATES directory, which contains special files.
 
-TODO: any other special directories?
+These files are sometimes also known as:
 
-These files are sometimes called "community health files" or "metadata files" or "recommended repository files" or "well-known files". 
+  * community health files
 
-TODO: any other terminology?
+  * recommended repository files
 
-Some of the file names have a very long history. For example the file name `README` is a convention that goes far back to the 1980's or earlier. 
+  * well-known files and well-known directories 
 
-Some of the file names are unique to GitHub as far as we know; for example the name `CODEOWNERS` and its syntax were created by GitHub staff.
+  * TODO: any other terminology?
+
+Some of the file names have a very long history.
+
+  * For example the file name `README` is a convention that goes far back to the 1980's or earlier. 
+
+Some of the file names are unique to GitHub as far as we know.
+
+  * For example the name `CODEOWNERS` and its syntax were created by GitHub staff.
 
 
 ## Community profile checklist
