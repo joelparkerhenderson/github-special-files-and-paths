@@ -28,9 +28,8 @@ GitHub special files can typically be written with a variety of formats and file
   * The README file can have many formats: see [markups](https://github.com/github/markup/blob/master/README.md#markups)
 
   * TODO: Can the README markup formats also work with all the other special files?
-
  
-GitHub special files are typicallylocated in special paths a.k.a. special directories:
+GitHub special files are typically located in special paths a.k.a. special directories:
  
   * `/` is the repository root directory
 
