@@ -1,6 +1,6 @@
 # GitHub special files and paths
 
-GitHub special files include `README`, `LICENSE`, etc. GitHub special paths include `.github`, `docs`, etc. These help automate repository managment and developer interactions.  This page summarizes these files and paths. We welcome pull requests and welcome GitHub staff creating an official page that replaces this page.
+GitHub special files include `README`, `LICENSE`, etc. GitHub special paths include `.github`, `docs`, etc. These help repository managment and developer interactions.  This page summarizes these. We welcome pull requests.
 
 * [Introduction](#introduction)
 * [History](#history)
