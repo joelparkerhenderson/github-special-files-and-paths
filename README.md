@@ -8,6 +8,7 @@ GitHub uses special files such as `README` and `LICENSE`, and special paths such
 * [Community profile checklist](#community-profile-checklist)
 * [CODE_OF_CONDUCT](#code_of_conduct)
 * [CODEOWNERS](#codeowners)
+* [CONTRIBUTING](#contributing)
 * [LICENSE](#license)
 * [PULL_REQUEST_TEMPLATE](#pull_request_template)
 * [README](#readme)
@@ -88,7 +89,7 @@ CODEOWNERS is a file that defines individuals or teams that are responsible for 
 Code owners are automatically requested for review when someone opens a pull request that modifies code that they own. When someone with admin or owner permissions has enabled required reviews, they also can optionally require approval from a code owner before the author can merge a pull request in the repository.
 
 
-# CONTRIBUTING
+## CONTRIBUTING
 
 https://help.github.com/articles/setting-guidelines-for-repository-contributors/
 
