@@ -19,3 +19,10 @@ TODO: any other special directories?
 These files are sometimes called "community health files" or "metadata files" or "recommended repository files" or "well-known files". 
 
 TODO: any other terminology?
+
+Some of the file names have a very long history. For example the file name `README` is a convention that goes far back to the 1980's or earlier. 
+
+Some of the file names are unique to GitHub as far as we know; for example the name `CODEOWNERS` and its syntax were created by GitHub staff.
+
+
+
