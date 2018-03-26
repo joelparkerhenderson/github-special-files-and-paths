@@ -64,9 +64,11 @@ The special files and paths are sometimes also known as:
 
 ## Community profile checklist
 
+https://help.github.com/categories/building-a-strong-community/
+
 The GitHub community profile checklist checks to see if a project includes recommended community health files, such as README, LICENSE, CONTRIBUTING, etc.
 
-TODO: how to add other files to the checklist?
+TODO: how to add more files to the checklist?
 
 
 ## CODE_OF_CONDUCT
