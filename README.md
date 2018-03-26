@@ -37,7 +37,7 @@ GitHub special files are typically located in special paths a.k.a. special direc
 
   * `/docs` is a typical documention directory
 
-  * There are exceptions, such as the `PULL_REQUESTS_TEMPLATES` directory.
+  * There are exceptions, such as the `PULL_REQUESTS_TEMPLATE` directory.
 
   * TODO: any other special directories?
 
