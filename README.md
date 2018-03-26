@@ -18,13 +18,14 @@ GitHub uses special files such as `README` and `LICENSE`, and special paths such
 
 GitHub special files can typically be written with a variety of formats and file name extensions:
 
-  * using freeform text, such as `README` or `README.txt`.
+  * Freeform text, such as `README` or `README.txt`.
 
-  * using Markdown, such as `README.md` or `README.markdown`.
+  * Markdown, such as `README.md` or `README.markdown`.
 
-  * There are exceptions, such as the `CODEOWNERS` file.
+  * The README file can have many formats: see [markups](https://github.com/github/markup/blob/master/README.md#markups)
+  * There are exceptions, such as the `CODEOWNERS` file which has a special syntax.
 
-  * TODO: any other formats, such as ASCIIDOC?
+  * TODO: Any other formats, such as ASCIIDOC? Are the README markups also usable by other special files?
  
  
 GitHub special files are typicallylocated in special paths a.k.a. special directories:
