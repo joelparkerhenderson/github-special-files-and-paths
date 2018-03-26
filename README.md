@@ -3,7 +3,10 @@
 GitHub special files include `README`, `LICENSE`, etc. GitHub special paths include `.github`, `docs`, etc. These help automate repository managment and developer interactions.  This page summarizes these files and paths. We welcome pull requests and welcome GitHub staff creating an official page that replaces this page.
 
 * [Introduction](#introduction)
+* [History](#history)
+* [Also known as](#also-known-as)
 * [Community profile checklist](#community-profile-checklist)
+* [CODE_OF_CONDUCT](#code_of_conduct)
 
 
 ## Introduction
@@ -60,3 +63,13 @@ The special files and paths are sometimes also known as:
 The GitHub community profile checklist checks to see if a project includes recommended community health files, such as README, LICENSE, CONTRIBUTING, etc.
 
 TODO: how to add other files to the checklist?
+
+
+## CODE_OF_CONDUCT
+
+https://help.github.com/articles/adding-a-code-of-conduct-to-your-project/
+
+A code of conduct defines standards for how to engage in a community. It signals an inclusive environment that respects all contributions. It also outlines procedures for addressing problems between members of your project's community. 
+
+
+
