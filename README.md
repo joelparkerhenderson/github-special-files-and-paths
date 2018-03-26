@@ -22,11 +22,12 @@ GitHub special files can typically be written with a variety of formats and file
 
   * Markdown, such as `README.md` or `README.markdown`.
 
-  * The README file can have many formats: see [markups](https://github.com/github/markup/blob/master/README.md#markups)
   * There are exceptions, such as the `CODEOWNERS` file which has a special syntax.
 
-  * TODO: Any other formats, such as ASCIIDOC? Are the README markups also usable by other special files?
- 
+  * The README file can have many formats: see [markups](https://github.com/github/markup/blob/master/README.md#markups)
+
+  * TODO: Can the README markup formats also work with all the other special files?
+
  
 GitHub special files are typicallylocated in special paths a.k.a. special directories:
  
