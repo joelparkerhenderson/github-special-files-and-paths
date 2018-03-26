@@ -16,7 +16,7 @@ GitHub special files can typically be written with a variety of formats and file
 
   * TODO: any other formats, such as ASCIIDOC?
  
-There are exceptions, such as the CODEOWNERS file, which uses a special syntax.
+  * There are exceptions, such as the CODEOWNERS file, which uses a special syntax.
 
 GitHub special files can typically be located in three special directories:
  
@@ -28,7 +28,7 @@ GitHub special files can typically be located in three special directories:
 
   * TODO: any other special directories?
 
-There are exceptions, such as the PULL_REQUESTS_TEMPLATES directory, which contains special files.
+  * There are exceptions, such as the PULL_REQUESTS_TEMPLATES directory, which contains special files.
 
 These files are sometimes also known as:
 
