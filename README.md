@@ -9,6 +9,7 @@ GitHub special files include `README`, `LICENSE`, etc. GitHub special paths incl
 * [CODE_OF_CONDUCT](#code_of_conduct)
 * [CODEOWNERS](#codeowners)
 * [LICENSE](#license)
+* [PULL_REQUEST_TEMPLATE](#pull_request_template)
 
 
 ## Introduction
@@ -98,6 +99,15 @@ https://help.github.com/articles/adding-a-license-to-a-repository/
 LICENSE is a file that explains the legal licensing, such as any rights, any restrictions, any regulations, etc. 
 
 If you include a detectable license in your repository, people who visit your repository will see it at the top of the repository page.
+
+
+## PULL_REQUEST_TEMPLATE
+
+https://help.github.com/articles/creating-a-pull-request-template-for-your-repository/
+
+When you add a pull request template to your repository, project contributors will automatically see the template's contents in the pull request body. Templates customize and standardize the information you'd like included when contributors create pull requests.
+
+You can create a PULL_REQUEST_TEMPLATE/ subdirectory in any of the supported folders to contain multiple pull request templates. Use the template query parameter to specify the template that will automatically fill the pull request body. For more information, see "[About automation for issues and pull requests with query parameters.](https://help.github.com/articles/about-automation-for-issues-and-pull-requests-with-query-parameters/)"
 
 
 
