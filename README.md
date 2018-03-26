@@ -124,6 +124,8 @@ https://help.github.com/articles/creating-a-pull-request-template-for-your-repos
 
 When you add a pull request template to your repository, project contributors will automatically see the template's contents in the pull request body. Templates customize and standardize the information you'd like included when contributors create pull requests.
 
+https://blog.github.com/2018-01-25-multiple-issue-and-pull-request-templates/
+
 You can create a PULL_REQUEST_TEMPLATE/ subdirectory in any of the supported folders to contain multiple pull request templates. Use the template query parameter to specify the template that will automatically fill the pull request body. For more information, see "[About automation for issues and pull requests with query parameters.](https://help.github.com/articles/about-automation-for-issues-and-pull-requests-with-query-parameters/)"
 
 
