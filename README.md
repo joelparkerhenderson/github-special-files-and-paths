@@ -8,12 +8,25 @@ GitHub special files include `README`, `LICENSE`, etc. GitHub special paths incl
 
 ## Introduction
 
-GitHub special files can typically be written using freeform text or Markdown.
+GitHub special files can typically be written with a variety of names:
+
+  * using freeform text, typically with no file name extension.
+
+  * using Markdown, typically with a file name name extension "`.md`" or "`.markdown`".
+
 There are exceptions, such as the CODEOWNERS file, which uses a special syntax.
 
 TODO: how to add other formats, such as ASCIIDOC?
 
-GitHub special files can typically be located in three special directoies: root directory `/`, or the special purpose directory ``/.github` directory, or the `/docs` directory. There are exceptions, such as the PULL_REQUESTS_TEMPLATES directory, which contains special files.
+GitHub special files can typically be located in three special directories:
+ 
+  * `/` (the root directory)
+
+  * `/.github` (a special purpose directory for the company)
+
+  * `/docs` (a typical documention directory)
+
+There are exceptions, such as the PULL_REQUESTS_TEMPLATES directory, which contains special files.
 
 TODO: any other special directories?
 
