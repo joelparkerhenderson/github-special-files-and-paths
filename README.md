@@ -72,4 +72,13 @@ https://help.github.com/articles/adding-a-code-of-conduct-to-your-project/
 A code of conduct defines standards for how to engage in a community. It signals an inclusive environment that respects all contributions. It also outlines procedures for addressing problems between members of your project's community. 
 
 
+## CODEOWNERS
 
+https://help.github.com/articles/about-codeowners/
+
+CODEOWNERS is a file that defines individuals or teams that are responsible for code in a repository.
+
+Code owners are automatically requested for review when someone opens a pull request that modifies code that they own. When someone with admin or owner permissions has enabled required reviews, they also can optionally require approval from a code owner before the author can merge a pull request in the repository.
+
+
+#
