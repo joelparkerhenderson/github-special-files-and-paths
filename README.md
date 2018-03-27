@@ -22,17 +22,17 @@ GitHub special files can typically be written with a variety of formats and file
 
   * Custom syntaxes, such as the file `CODEOWNERS`.
  
-GitHub special files are typically located at the top level or in special paths:
+GitHub special files are typically located at the repository top level or in special paths:
  
   * `/.github` is a hidden dot file directory.
 
   * `/docs` is a typical documentation directory.
 
-  * Custom directories, such as the directory `ISSUE_TEMPLATE`.
+  * Custom paths, such as the directory `ISSUE_TEMPLATE`.
 
 The special files and paths are sometimes also known as community health files, recommended repository files, well-known configurations, etc. 
 
-For a general overview see [building a strong community](https://help.github.com/categories/building-a-strong-community/)
+For a general overview see [building a strong community](https://help.github.com/categories/building-a-strong-community/).
 
 
 ## CODE_OF_CONDUCT
@@ -73,9 +73,7 @@ To add multiple issue templates to a repository create an `ISSUE_TEMPLATE/` dire
 
 https://help.github.com/articles/adding-a-license-to-a-repository/
 
-LICENSE is a file that explains the legal licensing, such as any rights, any restrictions, any regulations, etc. 
-
-If you include a detectable license in your repository, people who visit your repository will see it at the top of the repository page.
+LICENSE is a file that explains the legal licensing, such as any rights, any restrictions, any regulations, etc. If you include a detectable license in your repository, people who visit your repository will see it at the top of the repository page.
 
 
 ## PULL_REQUEST_TEMPLATE
@@ -93,7 +91,5 @@ You can create a PULL_REQUEST_TEMPLATE/ subdirectory in any of the supported fol
 
 https://help.github.com/articles/about-readmes/
 
-README is a file that explains your project, what it does, why it is useful, etc. The README file is often the first item a visitor will see when visiting your repository. 
-
-If you put your README file in your repository's root, docs, or hidden .github directory, GitHub will recognize and automatically surface your README to repository visitors.
+README is a file that explains your project, what it does, why it is useful, etc. The README file is often the first item a visitor will see when visiting your repository. GitHub will recognize and automatically surface your README to repository visitors.
 
