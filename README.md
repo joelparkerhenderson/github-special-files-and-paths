@@ -22,10 +22,8 @@ GitHub special files can typically be written with a variety of formats and file
 
   * Custom syntaxes, such as the file `CODEOWNERS`.
  
-GitHub special files are typically located in special paths a.k.a. special directories:
+GitHub special files are typically located at the top level or in special paths:
  
-  * `/` is the repository root directory.
-
   * `/.github` is a hidden dot file directory.
 
   * `/docs` is a typical documentation directory.
