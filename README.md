@@ -26,9 +26,9 @@ GitHub special files are typically located in special paths a.k.a. special direc
  
   * `/` is the repository root directory.
 
-  * `/.github` is a dot file directory.
+  * `/.github` is a hidden dot file directory.
 
-  * `/docs` is a typical documention directory.
+  * `/docs` is a typical documentation directory.
 
   * Custom directories, such as the directory `ISSUE_TEMPLATE`.
 
