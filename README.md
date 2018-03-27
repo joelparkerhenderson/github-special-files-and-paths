@@ -39,10 +39,7 @@ GitHub special files are typically located in special paths a.k.a. special direc
 
   * TODO: any other special directories?
 
- 
-Some of the naming conventions have a long history; for example `README` and `LICENSE` are naming conventions that go far back to the 1980's or earlier. Some of the naming conventions are unique to GitHub as far as we know; for example `CODEOWNERS` and `PULL_REQUEST_TEMPLATE` were created by GitHub staff.
-
-The special files and paths are sometimes also known as "community health files", "recommended repository files", "well-known files and well-known directories", etc. 
+The special files and paths are sometimes also known as "community health files", "recommended repository files", "well-known configurations", etc. 
 
 
 ## Community profile checklist
