@@ -19,7 +19,7 @@ GitHub special files can typically be written with a variety of formats and file
 
   * Freeform text, such as `README` or `README.txt`.
 
-  * Markdown, such as `README.md` or `README.markdown` - see [markups](https://github.com/github/markup/blob/master/README.md#markups)
+  * Markup formats, such as `README.markdown` or `README.asciidoc` - see [markups](https://github.com/github/markup/blob/master/README.md#markups)
 
   * Custom syntaxes, such as the `CODEOWNERS` file.
  
