@@ -19,27 +19,21 @@ GitHub special files can typically be written with a variety of formats and file
 
   * Freeform text, such as `README` or `README.txt`.
 
-  * Markdown, such as `README.md` or `README.markdown`.
+  * Markdown, such as `README.md` or `README.markdown` - see [markups](https://github.com/github/markup/blob/master/README.md#markups)
 
-  * There are exceptions, such as the `CODEOWNERS` file which has a special syntax.
-
-  * The README file can have many formats: see [markups](https://github.com/github/markup/blob/master/README.md#markups)
-
-  * TODO: Can the README markup formats also work with all the other special files?
+  * Custom syntaxes, such as the `CODEOWNERS` file.
  
 GitHub special files are typically located in special paths a.k.a. special directories:
  
-  * `/` is the repository root directory
+  * `/` is the repository root directory.
 
-  * `/.github` is a dot files directory
+  * `/.github` is a dot file directory.
 
-  * `/docs` is a typical documention directory
+  * `/docs` is a typical documention directory.
 
-  * There are exceptions, such as the `PULL_REQUESTS_TEMPLATE` directory.
+  * Custom directories, such as `ISSUE_TEMPLATE` and `PULL_REQUESTS_TEMPLATE`.
 
-  * TODO: any other special directories?
-
-The special files and paths are sometimes also known as "community health files", "recommended repository files", "well-known configurations", etc. 
+The special files and paths are sometimes also known as community health files, recommended repository files, well-known configurations, etc. 
 
 
 ## Community profile checklist
