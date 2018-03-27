@@ -20,7 +20,7 @@ GitHub special files can typically be written with a variety of formats and file
 
   * Markup formats, such as `README.markdown` or `README.asciidoc` - see [markups](https://github.com/github/markup/blob/master/README.md#markups)
 
-  * Custom syntaxes, such as the `CODEOWNERS` file.
+  * Custom syntaxes, such as the file `CODEOWNERS`.
  
 GitHub special files are typically located in special paths a.k.a. special directories:
  
@@ -30,7 +30,7 @@ GitHub special files are typically located in special paths a.k.a. special direc
 
   * `/docs` is a typical documention directory.
 
-  * Custom directories, such as `ISSUE_TEMPLATE` and `PULL_REQUESTS_TEMPLATE`.
+  * Custom directories, such as the directory `ISSUE_TEMPLATE`.
 
 The special files and paths are sometimes also known as community health files, recommended repository files, well-known configurations, etc. 
 
