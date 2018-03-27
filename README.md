@@ -3,7 +3,6 @@
 GitHub uses special files such as `README` and `LICENSE`, and special paths such as `/.github` and `/docs`, to improve repository managment and developer interactions.  This page is a summary. We welcome pull requests.
 
 * [Introduction](#introduction)
-* [Community profile checklist](#community-profile-checklist)
 * [CODE_OF_CONDUCT](#code_of_conduct)
 * [CODEOWNERS](#codeowners)
 * [CONTRIBUTING](#contributing)
@@ -35,14 +34,7 @@ GitHub special files are typically located in special paths a.k.a. special direc
 
 The special files and paths are sometimes also known as community health files, recommended repository files, well-known configurations, etc. 
 
-
-## Community profile checklist
-
-https://help.github.com/categories/building-a-strong-community/
-
-The GitHub community profile checklist checks to see if a project includes recommended community health files, such as README, LICENSE, CONTRIBUTING, etc.
-
-TODO: how to add more files to the checklist?
+For a general overview see [building a strong community](https://help.github.com/categories/building-a-strong-community/)
 
 
 ## CODE_OF_CONDUCT
