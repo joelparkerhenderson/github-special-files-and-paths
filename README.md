@@ -32,12 +32,13 @@ GitHub special files are typically located at the repository top level or in spe
 
 The special files and paths are sometimes also known as community health files, recommended repository files, well-known configurations, etc. 
 
-For a general overview see [building a strong community](https://help.github.com/categories/building-a-strong-community/).
+For a general overview see [building a strong community](https://help.github.com/categories/building-a-strong-community/) and [GitHub's Open Source Guides](https://opensource.guide/).
 
 
 ## CODE_OF_CONDUCT
 
-https://help.github.com/articles/adding-a-code-of-conduct-to-your-project/
+- Help: <https://help.github.com/articles/adding-a-code-of-conduct-to-your-project/>
+- Awesome list: <https://i-sight.com/resources/18-of-the-best-code-of-conduct-examples/>
 
 CODE_OF_CONDUCT is a file that explains how to engage in a community, and how to inclusive environment that respects all people, and how to address any problems among members of your project's community. 
 
@@ -53,14 +54,16 @@ Code owners are automatically requested for review when someone opens a pull req
 
 ## CONTRIBUTING
 
-https://help.github.com/articles/setting-guidelines-for-repository-contributors/
+- Help: <https://help.github.com/articles/setting-guidelines-for-repository-contributors/>
+- Awesome list: <https://github.com/mntnr/awesome-contributing>
 
 CONTRIBUTING is a file that explains how people should contribute, and that can help verify people are submitting well-formed pull requests and opening useful issues.
 
 
 ## ISSUE_TEMPLATE
 
-https://help.github.com/articles/creating-an-issue-template-for-your-repository/
+- Help: <https://help.github.com/articles/creating-an-issue-template-for-your-repository/>
+- Awesome list: <https://github.com/devspace/awesome-github-templates>
 
 When you add an issue template to your repository, project contributors will automatically see the template's contents in the issue body. Templates customize and standardize the information you'd like included when contributors open issues.
 
@@ -78,7 +81,8 @@ LICENSE is a file that explains the legal licensing, such as any rights, any res
 
 ## PULL_REQUEST_TEMPLATE
 
-https://help.github.com/articles/creating-a-pull-request-template-for-your-repository/
+- Help: <https://help.github.com/articles/creating-a-pull-request-template-for-your-repository/>
+- Awesome list: <https://github.com/devspace/awesome-github-templates>
 
 When you add a pull request template to your repository, project contributors will automatically see the template's contents in the pull request body. Templates customize and standardize the information you'd like included when contributors create pull requests.
 
@@ -89,7 +93,8 @@ You can create a PULL_REQUEST_TEMPLATE/ subdirectory in any of the supported fol
 
 ## README
 
-https://help.github.com/articles/about-readmes/
+- Help: <https://help.github.com/articles/about-readmes/>
+- Awesome list: <https://github.com/matiassingers/awesome-readme>
 
 README is a file that explains your project, what it does, why it is useful, etc. The README file is often the first item a visitor will see when visiting your repository. GitHub will recognize and automatically surface your README to repository visitors.
 
