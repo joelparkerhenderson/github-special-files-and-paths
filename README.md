@@ -50,7 +50,7 @@ Some of the special conventions have a very long history:
 
 Some of the special conventions are unique to GitHub as far as we know:
 
-  * For example `CODEOWNERS` and `PULL_REQUEST_TEMPLATE` its were created by GitHub staff.
+  * For example `CODEOWNERS` and `PULL_REQUEST_TEMPLATE` were created by GitHub staff.
 
 
 ## Also known as
