@@ -1,5 +1,7 @@
 # GitHub special files and paths
 
+<img src="README.png" alt="GitHub special files and paths" style="width: 100%;"/>
+
 GitHub uses special files such as `README` and `LICENSE`, and special paths such as `/.github` and `/docs`, to improve repository managment and developer interactions.  This page is a summary. We welcome pull requests.
 
 * [Introduction](#introduction)
