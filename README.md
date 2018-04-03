@@ -5,9 +5,6 @@
 GitHub uses special files such as `README` and `LICENSE`, and special paths such as `/.github` and `/docs`, to improve repository managment and developer interactions.  This page is a summary. We welcome pull requests.
 
 * [Introduction](#introduction)
-* [History](#history)
-* [Also known as](#also-known-as)
-* [Community profile checklist](#community-profile-checklist)
 * [CODE_OF_CONDUCT](#code_of_conduct)
 * [CODEOWNERS](#codeowners)
 * [CONTRIBUTING](#contributing)
@@ -23,63 +20,27 @@ GitHub special files can typically be written with a variety of formats and file
 
   * Freeform text, such as `README` or `README.txt`.
 
-  * Markdown, such as `README.md` or `README.markdown`.
+  * Markup formats, such as `README.markdown` or `README.asciidoc` - see [markups](https://github.com/github/markup/blob/master/README.md#markups)
 
-  * There are exceptions, such as the `CODEOWNERS` file which has a special syntax.
-
-  * The README file can have many formats: see [markups](https://github.com/github/markup/blob/master/README.md#markups)
-
-  * TODO: Can the README markup formats also work with all the other special files?
+  * Custom syntaxes, such as the file `CODEOWNERS`.
  
-GitHub special files are typically located in special paths a.k.a. special directories:
+GitHub special files are typically located at the repository top level or in special paths:
  
-  * `/` is the repository root directory
+  * `/.github` is a hidden dot file directory.
 
-  * `/.github` is a dot files directory
+  * `/docs` is a typical documentation directory.
 
-  * `/docs` is a typical documention directory
+  * Custom paths, such as the directory `ISSUE_TEMPLATE`.
 
-  * There are exceptions, such as the `PULL_REQUESTS_TEMPLATE` directory.
+The special files and paths are sometimes also known as community health files, recommended repository files, well-known configurations, etc. 
 
-  * TODO: any other special directories?
-
- 
-## History
-
-Some of the special conventions have a very long history:
-
-  * For example `README` and `LICENSE` are naming conventions that go far back to the 1980's or earlier. 
-
-Some of the special conventions are unique to GitHub as far as we know:
-
-  * For example `CODEOWNERS` and `PULL_REQUEST_TEMPLATE` its were created by GitHub staff.
-
-
-## Also known as
-
-The special files and paths are sometimes also known as:
-
-  * community health files
-
-  * recommended repository files
-
-  * well-known files and well-known directories 
-
-  * TODO: any other terminology?
-
-
-## Community profile checklist
-
-https://help.github.com/categories/building-a-strong-community/
-
-The GitHub community profile checklist checks to see if a project includes recommended community health files, such as README, LICENSE, CONTRIBUTING, etc.
-
-TODO: how to add more files to the checklist?
+For a general overview see [building a strong community](https://help.github.com/categories/building-a-strong-community/) and [GitHub's Open Source Guides](https://opensource.guide/).
 
 
 ## CODE_OF_CONDUCT
 
-https://help.github.com/articles/adding-a-code-of-conduct-to-your-project/
+- Help: <https://help.github.com/articles/adding-a-code-of-conduct-to-your-project/>
+- Awesome list: <https://i-sight.com/resources/18-of-the-best-code-of-conduct-examples/>
 
 CODE_OF_CONDUCT is a file that explains how to engage in a community, and how to inclusive environment that respects all people, and how to address any problems among members of your project's community. 
 
@@ -95,14 +56,16 @@ Code owners are automatically requested for review when someone opens a pull req
 
 ## CONTRIBUTING
 
-https://help.github.com/articles/setting-guidelines-for-repository-contributors/
+- Help: <https://help.github.com/articles/setting-guidelines-for-repository-contributors/>
+- Awesome list: <https://github.com/mntnr/awesome-contributing>
 
 CONTRIBUTING is a file that explains how people should contribute, and that can help verify people are submitting well-formed pull requests and opening useful issues.
 
 
 ## ISSUE_TEMPLATE
 
-https://help.github.com/articles/creating-an-issue-template-for-your-repository/
+- Help: <https://help.github.com/articles/creating-an-issue-template-for-your-repository/>
+- Awesome list: <https://github.com/devspace/awesome-github-templates>
 
 When you add an issue template to your repository, project contributors will automatically see the template's contents in the issue body. Templates customize and standardize the information you'd like included when contributors open issues.
 
@@ -115,14 +78,13 @@ To add multiple issue templates to a repository create an `ISSUE_TEMPLATE/` dire
 
 https://help.github.com/articles/adding-a-license-to-a-repository/
 
-LICENSE is a file that explains the legal licensing, such as any rights, any restrictions, any regulations, etc. 
-
-If you include a detectable license in your repository, people who visit your repository will see it at the top of the repository page.
+LICENSE is a file that explains the legal licensing, such as any rights, any restrictions, any regulations, etc. If you include a detectable license in your repository, people who visit your repository will see it at the top of the repository page.
 
 
 ## PULL_REQUEST_TEMPLATE
 
-https://help.github.com/articles/creating-a-pull-request-template-for-your-repository/
+- Help: <https://help.github.com/articles/creating-a-pull-request-template-for-your-repository/>
+- Awesome list: <https://github.com/devspace/awesome-github-templates>
 
 When you add a pull request template to your repository, project contributors will automatically see the template's contents in the pull request body. Templates customize and standardize the information you'd like included when contributors create pull requests.
 
@@ -133,9 +95,8 @@ You can create a PULL_REQUEST_TEMPLATE/ subdirectory in any of the supported fol
 
 ## README
 
-https://help.github.com/articles/about-readmes/
+- Help: <https://help.github.com/articles/about-readmes/>
+- Awesome list: <https://github.com/matiassingers/awesome-readme>
 
-README is a file that explains your project, what it does, why it is useful, etc. The README file is often the first item a visitor will see when visiting your repository. 
-
-If you put your README file in your repository's root, docs, or hidden .github directory, GitHub will recognize and automatically surface your README to repository visitors.
+README is a file that explains your project, what it does, why it is useful, etc. The README file is often the first item a visitor will see when visiting your repository. GitHub will recognize and automatically surface your README to repository visitors.
 
