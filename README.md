@@ -23,16 +23,16 @@ GitHub special files can typically be written with a variety of formats and file
   * Markup formats, such as `README.markdown` or `README.asciidoc` - see [markups](https://github.com/github/markup/blob/master/README.md#markups)
 
   * Custom syntaxes, such as the file `CODEOWNERS`.
- 
+
 GitHub special files are typically located at the repository top level or in special paths:
- 
+
   * `/.github` is a hidden dot file directory.
 
   * `/docs` is a typical documentation directory.
 
   * Custom paths, such as the directory `ISSUE_TEMPLATE`.
 
-The special files and paths are sometimes also known as community health files, recommended repository files, well-known configurations, etc. 
+The special files and paths are sometimes also known as community health files, recommended repository files, well-known configurations, etc.
 
 For a general overview see [building a strong community](https://help.github.com/categories/building-a-strong-community/) and [GitHub's Open Source Guides](https://opensource.guide/).
 
@@ -42,14 +42,14 @@ For a general overview see [building a strong community](https://help.github.com
 - Help: <https://help.github.com/articles/adding-a-code-of-conduct-to-your-project/>
 - Awesome list: <https://i-sight.com/resources/18-of-the-best-code-of-conduct-examples/>
 
-CODE_OF_CONDUCT is a file that explains how to engage in a community, and how to inclusive environment that respects all people, and how to address any problems among members of your project's community. 
+`CODE_OF_CONDUCT` is a file that explains how to engage in a community, and how to inclusive environment that respects all people, and how to address any problems among members of your project's community.
 
 
 ## CODEOWNERS
 
 https://help.github.com/articles/about-codeowners/
 
-CODEOWNERS is a file that defines individuals or teams that are responsible for code in a repository.
+`CODEOWNERS` is a file that defines individuals or teams that are responsible for code in a repository.
 
 Code owners are automatically requested for review when someone opens a pull request that modifies code that they own. When someone with admin or owner permissions has enabled required reviews, they also can optionally require approval from a code owner before the author can merge a pull request in the repository.
 
@@ -59,7 +59,7 @@ Code owners are automatically requested for review when someone opens a pull req
 - Help: <https://help.github.com/articles/setting-guidelines-for-repository-contributors/>
 - Awesome list: <https://github.com/mntnr/awesome-contributing>
 
-CONTRIBUTING is a file that explains how people should contribute, and that can help verify people are submitting well-formed pull requests and opening useful issues.
+`CONTRIBUTING` is a file that explains how people should contribute, and that can help verify people are submitting well-formed pull requests and opening useful issues.
 
 
 ## ISSUE_TEMPLATE
@@ -78,7 +78,7 @@ To add multiple issue templates to a repository create an `ISSUE_TEMPLATE/` dire
 
 https://help.github.com/articles/adding-a-license-to-a-repository/
 
-LICENSE is a file that explains the legal licensing, such as any rights, any restrictions, any regulations, etc. If you include a detectable license in your repository, people who visit your repository will see it at the top of the repository page.
+`LICENSE` is a file that explains the legal licensing, such as any rights, any restrictions, any regulations, etc. If you include a detectable license in your repository, people who visit your repository will see it at the top of the repository page.
 
 
 ## PULL_REQUEST_TEMPLATE
@@ -86,11 +86,11 @@ LICENSE is a file that explains the legal licensing, such as any rights, any res
 - Help: <https://help.github.com/articles/creating-a-pull-request-template-for-your-repository/>
 - Awesome list: <https://github.com/devspace/awesome-github-templates>
 
-When you add a pull request template to your repository, project contributors will automatically see the template's contents in the pull request body. Templates customize and standardize the information you'd like included when contributors create pull requests.
+When you add a `PULL_REQUEST_TEMPLATE` file to your repository, project contributors will automatically see the template's contents in the pull request body. Templates customize and standardize the information you'd like included when contributors create pull requests.
 
 https://blog.github.com/2018-01-25-multiple-issue-and-pull-request-templates/
 
-You can create a PULL_REQUEST_TEMPLATE/ subdirectory in any of the supported folders to contain multiple pull request templates. Use the template query parameter to specify the template that will automatically fill the pull request body. For more information, see "[About automation for issues and pull requests with query parameters.](https://help.github.com/articles/about-automation-for-issues-and-pull-requests-with-query-parameters/)"
+You can create a `PULL_REQUEST_TEMPLATE/` subdirectory in any of the supported folders to contain multiple pull request templates. Use the template query parameter to specify the template that will automatically fill the pull request body. For more information, see "[About automation for issues and pull requests with query parameters.](https://help.github.com/articles/about-automation-for-issues-and-pull-requests-with-query-parameters/)"
 
 
 ## README
@@ -98,5 +98,4 @@ You can create a PULL_REQUEST_TEMPLATE/ subdirectory in any of the supported fol
 - Help: <https://help.github.com/articles/about-readmes/>
 - Awesome list: <https://github.com/matiassingers/awesome-readme>
 
-README is a file that explains your project, what it does, why it is useful, etc. The README file is often the first item a visitor will see when visiting your repository. GitHub will recognize and automatically surface your README to repository visitors.
-
+`README` is a file that explains your project, what it does, why it is useful, etc. The `README` file is often the first item a visitor will see when visiting your repository. GitHub will recognize and automatically surface your `README` to repository visitors.
