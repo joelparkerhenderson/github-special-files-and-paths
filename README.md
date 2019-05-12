@@ -9,6 +9,7 @@ GitHub uses special files such as `README` and `LICENSE`, and special paths such
 * [CODEOWNERS](#codeowners)
 * [CONTRIBUTING](#contributing)
 * [ISSUE_TEMPLATE](#issue_template)
+* [Jekyll](#jekyll)
 * [LICENSE](#license)
 * [PULL_REQUEST_TEMPLATE](#pull_request_template)
 * [README](#readme)
@@ -72,6 +73,27 @@ When you add an issue template to your repository, project contributors will aut
 https://blog.github.com/2018-01-25-multiple-issue-and-pull-request-templates/
 
 To add multiple issue templates to a repository create an `ISSUE_TEMPLATE/` directory in your project root. Within that `ISSUE_TEMPLATE/` directory you can create as many issue templates as you need, for example `ISSUE_TEMPLATE/bugs.md`.
+
+
+## Jekyll
+- Help: <https://jekyllrb.com/docs/structure/>
+
+GitHub uses Jekyll to compile static sites for hosting through its GitHub Pages service.  Jekyll configuration is read directly from the repository.
+
+The following files and directories are used by Jekyll:
+
+* `_config.yml`
+* `_drafts/`
+* `_includes/`
+* `_layouts/`
+* `_posts/`
+* `_data/`
+* `_sass/`
+* `_site/`
+* `.jekyll-metadata`
+* `index`
+
+All other files in the repository are included in the generated site without additional processing.
 
 
 ## LICENSE
