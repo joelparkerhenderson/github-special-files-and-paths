@@ -13,6 +13,7 @@ GitHub uses special files such as `README` and `LICENSE`, and special paths such
 * [LICENSE](#license)
 * [PULL_REQUEST_TEMPLATE](#pull_request_template)
 * [README](#readme)
+* [SECURITY](#security)
 
 
 ## Introduction
@@ -121,3 +122,9 @@ You can create a `PULL_REQUEST_TEMPLATE/` subdirectory in any of the supported f
 - Awesome list: <https://github.com/matiassingers/awesome-readme>
 
 `README` is a file that explains your project, what it does, why it is useful, etc. The `README` file is often the first item a visitor will see when visiting your repository. GitHub will recognize and automatically surface your `README` to repository visitors.
+
+## SECURITY
+
+- Help: <https://help.github.com/en/articles/adding-a-security-policy-to-your-repository>
+
+`SECURITY` describes your project's security policies, including a list of versions that are currently being maintained with security updates. It also gives instructions on how your users can submit a report of a vulnerability. If you provide a `SECURITY` file, it will appear under the "Policy" link on the "Security" tab of your repository.
