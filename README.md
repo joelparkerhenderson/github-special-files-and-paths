@@ -5,15 +5,20 @@
 GitHub uses special files such as `README` and `LICENSE`, and special paths such as `/.github` and `/docs`, to improve repository managment and developer interactions.  This page is a summary. We welcome pull requests.
 
 * [Introduction](#introduction)
-* [CODE_OF_CONDUCT](#code_of_conduct)
-* [CODEOWNERS](#codeowners)
-* [CONTRIBUTING](#contributing)
-* [ISSUE_TEMPLATE](#issue_template)
-* [Jekyll](#jekyll)
-* [LICENSE](#license)
-* [PULL_REQUEST_TEMPLATE](#pull_request_template)
 * [README](#readme)
+* [CHANGELOG](#changelog)
+* [LICENSE](#license)
+* [SUPPORT](#support)
 * [SECURITY](#security)
+* [CODE_OF_CONDUCT](#code_of_conduct)
+* [CONTRIBUTING](#contributing)
+* [CONTRIBUTORS](#contributors)
+* [AUTHORS](#authors)
+* [ACKNOWLEDGMENTS](#acknowledgments)
+* [CODEOWNERS](#codeowners)
+* [ISSUE_TEMPLATE](#issue_template)
+* [PULL_REQUEST_TEMPLATE](#pull_request_template)
+* [Jekyll](#jekyll)
 
 
 ## Introduction
