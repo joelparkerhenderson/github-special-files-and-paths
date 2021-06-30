@@ -39,6 +39,11 @@ The special files and paths are sometimes also known as community health files, 
 For a general overview see [building a strong community](https://help.github.com/categories/building-a-strong-community/) and [GitHub's Open Source Guides](https://opensource.guide/).
 
 
+## CHANGELOG
+
+`CHANGELOG` or `CHANGELOG.txt` or `CHANGELOG.md` etc. is a file that describes what's happening in a reposity, such as version number increases, software updates, bug fixes, and the like. This file name has been around since the early days of the web.
+
+
 ## CODE_OF_CONDUCT
 
 - Help: <https://help.github.com/articles/adding-a-code-of-conduct-to-your-project/>
