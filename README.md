@@ -75,6 +75,11 @@ https://help.github.com/articles/adding-a-license-to-a-repository/
 `CONTRIBUTING` is a file that explains how people should contribute, and that can help verify people are submitting well-formed pull requests and opening useful issues. GitHub links this file on page "New Issue" and the page "New Pull Request". This helps people understand how to contribute.
 
 
+## SUPPORT
+
+`SUPPORT` or `SUPPORT.txt` or `SUPPORT.md` etc. is a file that explains how a reader can get help with the repository and project. Github links this file on the page "New Issue". Unlike the "CONTRIBUTING" file, GitHub does not link this file on the page "New Pull Request".
+
+
 ## SECURITY
 
 - Help: <https://help.github.com/en/articles/adding-a-security-policy-to-your-repository>
