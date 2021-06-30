@@ -86,6 +86,11 @@ If you don't provide a license, then in some locations, there are default copyri
 `CONTRIBUTORS` or `CONTRIBUTORS.txt` or `CONTRIBUTORS.md` etc. is a file that lists people who have contributed to the project. When we use a `CONTRIBUTORS` file in our projects, we ask people how they want to be listed, such as by their name, handle, email address, website link, etc. Compare this file to the file `AUTHORS`.
 
 
+## AUTHORS
+
+`AUTHORS` or `AUTHORS.txt` or `AUTHORS.md` etc. is a file that lists people who are significant authors of the project, such as the people who are legally related to the work. The GNU project states "Only the contributions that are legally significant for copyright purposes (see Legally Significant) need to be listed. Small contributions, bug reports, ideas, etc., can be omitted." Compare this file to the file `CONTRIBUTORS`.
+
+
 ## SUPPORT
 
 `SUPPORT` or `SUPPORT.txt` or `SUPPORT.md` etc. is a file that explains how a reader can get help with the repository and project. Github links this file on the page "New Issue". Unlike the "CONTRIBUTING" file, GitHub does not link this file on the page "New Pull Request".
