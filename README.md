@@ -39,9 +39,24 @@ The special files and paths are sometimes also known as community health files, 
 For a general overview see [building a strong community](https://help.github.com/categories/building-a-strong-community/) and [GitHub's Open Source Guides](https://opensource.guide/).
 
 
+## README
+
+- Help: <https://help.github.com/articles/about-readmes/>
+- Awesome list: <https://github.com/matiassingers/awesome-readme>
+
+`README` or `README.txt` or `README.md` etc. is a file that explains your project, what it does, why it is useful, etc. The `README` file is often the first item a visitor will see when visiting your repository. GitHub will recognize and automatically surface your `README` to repository visitors.
+
+
 ## CHANGELOG
 
-`CHANGELOG` or `CHANGELOG.txt` or `CHANGELOG.md` etc. is a file that describes what's happening in a reposity, such as version number increases, software updates, bug fixes, and the like. This file name has been around since the early days of the web.
+`CHANGELOG` or `CHANGELOG.txt` or `CHANGELOG.md` etc. is a file that describes what's happening in a reposity, such as version number increases, software updates, bug fixes, and the like. This file name convention has been around since the early days of the web.
+
+
+## LICENSE
+
+https://help.github.com/articles/adding-a-license-to-a-repository/
+
+`LICENSE` or `LICENSE.txt` or `LICENSE.md` etc. is a file that explains the legal licensing, such as any rights, any restrictions, any regulations, etc. If you include a detectable license in your repository, people who visit your repository will see it at the top of the repository page.
 
 
 ## CODE_OF_CONDUCT
@@ -52,6 +67,21 @@ For a general overview see [building a strong community](https://help.github.com
 `CODE_OF_CONDUCT` is a file that explains how to engage in a community, and how to inclusive environment that respects all people, and how to address any problems among members of your project's community.
 
 
+## CONTRIBUTING
+
+- Help: <https://help.github.com/articles/setting-guidelines-for-repository-contributors/>
+- Awesome list: <https://github.com/mntnr/awesome-contributing>
+
+`CONTRIBUTING` is a file that explains how people should contribute, and that can help verify people are submitting well-formed pull requests and opening useful issues.
+
+
+## SECURITY
+
+- Help: <https://help.github.com/en/articles/adding-a-security-policy-to-your-repository>
+
+`SECURITY` describes your project's security policies, including a list of versions that are currently being maintained with security updates. It also gives instructions on how your users can submit a report of a vulnerability. If you provide a `SECURITY` file, it will appear under the "Policy" link on the "Security" tab of your repository.
+
+
 ## CODEOWNERS
 
 https://help.github.com/articles/about-codeowners/
@@ -59,14 +89,6 @@ https://help.github.com/articles/about-codeowners/
 `CODEOWNERS` is a file that defines individuals or teams that are responsible for code in a repository.
 
 Code owners are automatically requested for review when someone opens a pull request that modifies code that they own. When someone with admin or owner permissions has enabled required reviews, they also can optionally require approval from a code owner before the author can merge a pull request in the repository.
-
-
-## CONTRIBUTING
-
-- Help: <https://help.github.com/articles/setting-guidelines-for-repository-contributors/>
-- Awesome list: <https://github.com/mntnr/awesome-contributing>
-
-`CONTRIBUTING` is a file that explains how people should contribute, and that can help verify people are submitting well-formed pull requests and opening useful issues.
 
 
 ## ISSUE_TEMPLATE
@@ -102,13 +124,6 @@ The following files and directories are used by Jekyll:
 All other files in the repository are included in the generated site without additional processing.
 
 
-## LICENSE
-
-https://help.github.com/articles/adding-a-license-to-a-repository/
-
-`LICENSE` is a file that explains the legal licensing, such as any rights, any restrictions, any regulations, etc. If you include a detectable license in your repository, people who visit your repository will see it at the top of the repository page.
-
-
 ## PULL_REQUEST_TEMPLATE
 
 - Help: <https://help.github.com/articles/creating-a-pull-request-template-for-your-repository/>
@@ -119,17 +134,3 @@ When you add a `PULL_REQUEST_TEMPLATE` file to your repository, project contribu
 https://blog.github.com/2018-01-25-multiple-issue-and-pull-request-templates/
 
 You can create a `PULL_REQUEST_TEMPLATE/` subdirectory in any of the supported folders to contain multiple pull request templates. Use the template query parameter to specify the template that will automatically fill the pull request body. For more information, see "[About automation for issues and pull requests with query parameters.](https://help.github.com/articles/about-automation-for-issues-and-pull-requests-with-query-parameters/)"
-
-
-## README
-
-- Help: <https://help.github.com/articles/about-readmes/>
-- Awesome list: <https://github.com/matiassingers/awesome-readme>
-
-`README` is a file that explains your project, what it does, why it is useful, etc. The `README` file is often the first item a visitor will see when visiting your repository. GitHub will recognize and automatically surface your `README` to repository visitors.
-
-## SECURITY
-
-- Help: <https://help.github.com/en/articles/adding-a-security-policy-to-your-repository>
-
-`SECURITY` describes your project's security policies, including a list of versions that are currently being maintained with security updates. It also gives instructions on how your users can submit a report of a vulnerability. If you provide a `SECURITY` file, it will appear under the "Policy" link on the "Security" tab of your repository.
