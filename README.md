@@ -72,7 +72,7 @@ https://help.github.com/articles/adding-a-license-to-a-repository/
 - Help: <https://help.github.com/articles/setting-guidelines-for-repository-contributors/>
 - Awesome list: <https://github.com/mntnr/awesome-contributing>
 
-`CONTRIBUTING` is a file that explains how people should contribute, and that can help verify people are submitting well-formed pull requests and opening useful issues.
+`CONTRIBUTING` is a file that explains how people should contribute, and that can help verify people are submitting well-formed pull requests and opening useful issues. GitHub links this file on page "New Issue" and the page "New Pull Request". This helps people understand how to contribute.
 
 
 ## SECURITY
