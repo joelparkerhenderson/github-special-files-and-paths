@@ -65,6 +65,18 @@ If your project is significant, or contains other peoples' work or intellectual 
 If you don't provide a license, then in some locations, there are default copyright laws that will apply.
 
 
+## SUPPORT
+
+`SUPPORT` or `SUPPORT.txt` or `SUPPORT.md` etc. is a file that explains how a reader can get help with the repository and project. Github links this file on the page "New Issue". Unlike the "CONTRIBUTING" file, GitHub does not link this file on the page "New Pull Request".
+
+
+## SECURITY
+
+- Help: <https://help.github.com/en/articles/adding-a-security-policy-to-your-repository>
+
+`SECURITY` describes your project's security policies, including a list of versions that are currently being maintained with security updates. It also gives instructions on how your users can submit a report of a vulnerability. If you provide a `SECURITY` file, it will appear under the "Policy" link on the "Security" tab of your repository.
+
+
 ## CODE_OF_CONDUCT
 
 - Help: <https://help.github.com/articles/adding-a-code-of-conduct-to-your-project/>
@@ -91,16 +103,9 @@ If you don't provide a license, then in some locations, there are default copyri
 `AUTHORS` or `AUTHORS.txt` or `AUTHORS.md` etc. is a file that lists people who are significant authors of the project, such as the people who are legally related to the work. The GNU project states "Only the contributions that are legally significant for copyright purposes (see Legally Significant) need to be listed. Small contributions, bug reports, ideas, etc., can be omitted." Compare this file to the file `CONTRIBUTORS`.
 
 
-## SUPPORT
+## ACKNOWLEDGMENTS
 
-`SUPPORT` or `SUPPORT.txt` or `SUPPORT.md` etc. is a file that explains how a reader can get help with the repository and project. Github links this file on the page "New Issue". Unlike the "CONTRIBUTING" file, GitHub does not link this file on the page "New Pull Request".
-
-
-## SECURITY
-
-- Help: <https://help.github.com/en/articles/adding-a-security-policy-to-your-repository>
-
-`SECURITY` describes your project's security policies, including a list of versions that are currently being maintained with security updates. It also gives instructions on how your users can submit a report of a vulnerability. If you provide a `SECURITY` file, it will appear under the "Policy" link on the "Security" tab of your repository.
+`ACKNOWLEDGMENTS` or `ACKNOWLEDGMENTS.txt` or `ACKNOWLEDGMENTS.md` etc. is a file that describes related work, such as other projects that are dependencies, or libraries, or modules, or have their own copyrights or licenses that you want to include in your project.
 
 
 ## CODEOWNERS
@@ -124,7 +129,20 @@ https://blog.github.com/2018-01-25-multiple-issue-and-pull-request-templates/
 To add multiple issue templates to a repository create an `ISSUE_TEMPLATE/` directory in your project root. Within that `ISSUE_TEMPLATE/` directory you can create as many issue templates as you need, for example `ISSUE_TEMPLATE/bugs.md`.
 
 
+## PULL_REQUEST_TEMPLATE
+
+- Help: <https://help.github.com/articles/creating-a-pull-request-template-for-your-repository/>
+- Awesome list: <https://github.com/devspace/awesome-github-templates>
+
+When you add a `PULL_REQUEST_TEMPLATE` file to your repository, project contributors will automatically see the template's contents in the pull request body. Templates customize and standardize the information you'd like included when contributors create pull requests.
+
+https://blog.github.com/2018-01-25-multiple-issue-and-pull-request-templates/
+
+You can create a `PULL_REQUEST_TEMPLATE/` subdirectory in any of the supported folders to contain multiple pull request templates. Use the template query parameter to specify the template that will automatically fill the pull request body. For more information, see "[About automation for issues and pull requests with query parameters.](https://help.github.com/articles/about-automation-for-issues-and-pull-requests-with-query-parameters/)"
+
+
 ## Jekyll
+
 - Help: <https://jekyllrb.com/docs/structure/>
 
 GitHub uses Jekyll to compile static sites for hosting through its GitHub Pages service.  Jekyll configuration is read directly from the repository.
@@ -143,15 +161,3 @@ The following files and directories are used by Jekyll:
 * `index`
 
 All other files in the repository are included in the generated site without additional processing.
-
-
-## PULL_REQUEST_TEMPLATE
-
-- Help: <https://help.github.com/articles/creating-a-pull-request-template-for-your-repository/>
-- Awesome list: <https://github.com/devspace/awesome-github-templates>
-
-When you add a `PULL_REQUEST_TEMPLATE` file to your repository, project contributors will automatically see the template's contents in the pull request body. Templates customize and standardize the information you'd like included when contributors create pull requests.
-
-https://blog.github.com/2018-01-25-multiple-issue-and-pull-request-templates/
-
-You can create a `PULL_REQUEST_TEMPLATE/` subdirectory in any of the supported folders to contain multiple pull request templates. Use the template query parameter to specify the template that will automatically fill the pull request body. For more information, see "[About automation for issues and pull requests with query parameters.](https://help.github.com/articles/about-automation-for-issues-and-pull-requests-with-query-parameters/)"
