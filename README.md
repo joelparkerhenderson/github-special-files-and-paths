@@ -58,6 +58,12 @@ https://help.github.com/articles/adding-a-license-to-a-repository/
 
 `LICENSE` or `LICENSE.txt` or `LICENSE.md` etc. is a file that explains the legal licensing, such as any rights, any restrictions, any regulations, etc. If you include a detectable license in your repository, people who visit your repository will see it at the top of the repository page.
 
+If you want help to choose a license, then try https://choosealicense.com
+
+If your project is significant, or contains other peoples' work or intellectual property, then you may want to consult with a lawyer who can help you with your specific goals and needs.
+
+If you don't provide a license, then in some locations, there are default copyright laws that will apply.
+
 
 ## CODE_OF_CONDUCT
 
