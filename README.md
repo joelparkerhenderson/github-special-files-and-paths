@@ -19,6 +19,7 @@ GitHub uses special files such as `README` and `LICENSE`, and special paths such
 * [ISSUE_TEMPLATE](#issue_template)
 * [PULL_REQUEST_TEMPLATE](#pull_request_template)
 * [Jekyll](#jekyll)
+* [FUNDING](#funding)
 
 
 ## Introduction
@@ -166,3 +167,9 @@ The following files and directories are used by Jekyll:
 * `index`
 
 All other files in the repository are included in the generated site without additional processing.
+
+## FUNDING
+
+- Help: <https://docs.github.com/en/github/administering-a-repository/managing-repository-settings/displaying-a-sponsor-button-in-your-repository>
+
+You can configure your sponsor button by adding a `.github/FUNDING.yml` file in your repository on the default branch. You can configure the button to include sponsored developers in GitHub Sponsors, external funding platforms, or a custom funding URL.
