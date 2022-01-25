@@ -147,6 +147,16 @@ https://blog.github.com/2018-01-25-multiple-issue-and-pull-request-templates/
 You can create a `PULL_REQUEST_TEMPLATE/` subdirectory in any of the supported folders to contain multiple pull request templates. Use the template query parameter to specify the template that will automatically fill the pull request body. For more information, see "[About automation for issues and pull requests with query parameters.](https://help.github.com/articles/about-automation-for-issues-and-pull-requests-with-query-parameters/)"
 
 
+## CITATION.cff
+
+- Help: <https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-citation-files>
+
+You can add a CITATION.cff file to the root of a repository to let others know how you would like them to cite your work. 
+When you add a CITATION.cff file to the default branch of your repository, it is automatically linked from the repository landing page.
+
+The citation file format is plain text with human- and machine-readable citation information.
+
+
 ## Jekyll
 
 - Help: <https://jekyllrb.com/docs/structure/>
