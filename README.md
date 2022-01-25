@@ -18,6 +18,7 @@ GitHub uses special files such as `README` and `LICENSE`, and special paths such
 * [CODEOWNERS](#codeowners)
 * [ISSUE_TEMPLATE](#issue_template)
 * [PULL_REQUEST_TEMPLATE](#pull_request_template)
+* [CITATION.cff](#citation-cff)
 * [Jekyll](#jekyll)
 * [FUNDING](#funding)
 
