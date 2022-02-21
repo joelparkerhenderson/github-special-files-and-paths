@@ -254,7 +254,7 @@ All other files in the repository are included in the generated site without add
 ## Tracking
 
 * Package: github-special-files-and-paths
-* Version: 9.0.0
+* Version: 5.0.0
 * Created: 2017-08-22T00:00:00Z
 * Updated: 2022-02-21T17:07:56Z
 * License: GPL-2.0-or-later or contact us for custom license
