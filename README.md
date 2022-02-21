@@ -21,6 +21,7 @@ GitHub uses special files such as `README` and `LICENSE`, and special paths such
 * [CITATION.cff](#citation-cff)
 * [FUNDING](#funding)
 * [dependabot.yml](#dependabotyml)
+* [workflows](#workflows)
 * [Jekyll](#jekyll)
 
 
@@ -215,6 +216,15 @@ File: `.github/dependabot.yml`
 Help: <https://github.com/dependabot>
 
 Dependabot is a GitHub tool that provides automated dependency updates. To enable updates, create a Dependabot configuration file and add it to a repository. The file describes the dependencies to update, where dependency manifests are located, etc. If Dependbot discovers that an update is available, then Dependabot sends you a pull request to update your dependency.
+
+
+## Workflows
+
+Directory: `.github/workflows`
+
+Help: <https://docs.github.com/en/actions/using-workflows/workflow-syntax-for-github-actions>
+
+A workflow is a configurable automated process made up of one or more jobs. You must create a YAML file to define your workflow configuration. Workflow files use YAML syntax, and must have file extension `.yml` or `.yaml`.
 
 
 ## Jekyll
