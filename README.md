@@ -49,135 +49,179 @@ For a general overview see [building a strong community](https://help.github.com
 
 ## README
 
+- File: `README` or `README.txt` or `README.md` etc.
+
 - Help: <https://help.github.com/articles/about-readmes/>
+
 - Awesome list: <https://github.com/matiassingers/awesome-readme>
 
-`README` or `README.txt` or `README.md` etc. is a file that explains your project, what it does, why it is useful, etc. The `README` file is often the first item a visitor will see when visiting your repository. GitHub will recognize and automatically surface your `README` to repository visitors.
+This file that explains your project, what it does, why it is useful, etc. 
+
+This file is often the first item a visitor will see when visiting your repository, because GitHub automatically shows this file to repository visitors.
 
 
 ## CHANGELOG
 
-`CHANGELOG` or `CHANGELOG.txt` or `CHANGELOG.md` etc. is a file that describes what's happening in a reposity, such as version number increases, software updates, bug fixes, and the like. This file name convention has been around since the early days of the web.
+File: `CHANGELOG` or `CHANGELOG.txt` or `CHANGELOG.md` etc. 
+
+This file explains a reposity's notable changes, updates, versions, bug fixes, and the like. This file name convention has been around since the early days of the web.
 
 
 ## LICENSE
 
-https://help.github.com/articles/adding-a-license-to-a-repository/
+File: `LICENSE` or `LICENSE.txt` or `LICENSE.md` etc. 
 
-`LICENSE` or `LICENSE.txt` or `LICENSE.md` etc. is a file that explains the legal licensing, such as any rights, any restrictions, any regulations, etc. If you include a detectable license in your repository, people who visit your repository will see it at the top of the repository page.
+Help: <https://help.github.com/articles/adding-a-license-to-a-repository/>
+
+This file explains the respostory's legal license, such as any legal rights, any copyright restrictions, etc. If you include a detectable license in your repository, people who visit your repository will see it at the top of the repository page.
 
 If you want help to choose a license, then try https://choosealicense.com
 
-If your project is significant, or contains other peoples' work or intellectual property, then you may want to consult with a lawyer who can help you with your specific goals and needs.
-
-If you don't provide a license, then in some locations, there are default copyright laws that will apply.
+If your project is significant, or contains other peoples' work or intellectual property, then you may want to consult with a lawyer who can help you with your specific goals and needs. If you don't provide a license, then in some locations a default copyright law will apply.
 
 
 ## SUPPORT
 
-`SUPPORT` or `SUPPORT.txt` or `SUPPORT.md` etc. is a file that explains how a reader can get help with the repository and project. Github links this file on the page "New Issue". Unlike the "CONTRIBUTING" file, GitHub does not link this file on the page "New Pull Request".
+File: `SUPPORT` or `SUPPORT.txt` or `SUPPORT.md` etc. 
+
+This file explains how a reader can get help with the repository and project. Github links this file on the page "New Issue". Unlike the "CONTRIBUTING" file, GitHub does not link this file on the page "New Pull Request".
 
 
 ## SECURITY
 
-- Help: <https://help.github.com/en/articles/adding-a-security-policy-to-your-repository>
+File: `SECURITY` or `SECURITY.txt` or `SECURITY.md` etc.
 
-`SECURITY` describes your project's security policies, including a list of versions that are currently being maintained with security updates. It also gives instructions on how your users can submit a report of a vulnerability. If you provide a `SECURITY` file, it will appear under the "Policy" link on the "Security" tab of your repository.
+Help: <https://help.github.com/en/articles/adding-a-security-policy-to-your-repository>
+
+This file explains the project's security policies, such as a list of versions that are currently being maintained with security updates. This file also provides instructions on how users can submit a report of a vulnerability. 
+
+GitHub links to this file, under the "Policy" link on the "Security" tab of your repository.
 
 
 ## CODE_OF_CONDUCT
 
-- Help: <https://help.github.com/articles/adding-a-code-of-conduct-to-your-project/>
-- Awesome list: <https://i-sight.com/resources/18-of-the-best-code-of-conduct-examples/>
+File: `CODE_OF_CONDUCT` or `CODE_OF_CONDUCT.txt` or `CODE_OF_CONDUCT.md` etc.
 
-`CODE_OF_CONDUCT` is a file that explains how to engage in a community, and how to inclusive environment that respects all people, and how to address any problems among members of your project's community.
+Help: <https://help.github.com/articles/adding-a-code-of-conduct-to-your-project/>
+
+Awesome list: <https://i-sight.com/resources/18-of-the-best-code-of-conduct-examples/>
+
+This file explains how to engage in a community, and how to inclusive environment that respects all people, and how to address any problems among members of your project's community.
 
 
 ## CONTRIBUTING
 
-- Help: <https://help.github.com/articles/setting-guidelines-for-repository-contributors/>
-- Awesome list: <https://github.com/mntnr/awesome-contributing>
+File: `CONTRIBUTING` or `CONTRIBUTING.txt` or `CONTRIBUTING.md` etc.
 
-`CONTRIBUTING` is a file that explains how people should contribute, and that can help verify people are submitting well-formed pull requests and opening useful issues. GitHub links this file on page "New Issue" and the page "New Pull Request". This helps people understand how to contribute.
+Help: <https://help.github.com/articles/setting-guidelines-for-repository-contributors/>
+
+Awesome list: <https://github.com/mntnr/awesome-contributing>
+
+This file explains how people can contribute to the project. This file can help verify people are submitting well-formed pull requests and opening useful issues. 
+
+GitHub links to this file, on the page "New Issue" and the page "New Pull Request".
 
 
 ## CONTRIBUTORS
 
-`CONTRIBUTORS` or `CONTRIBUTORS.txt` or `CONTRIBUTORS.md` etc. is a file that lists people who have contributed to the project. When we use a `CONTRIBUTORS` file in our projects, we ask people how they want to be listed, such as by their name, handle, email address, website link, etc. Compare this file to the file `AUTHORS`.
+File: `CONTRIBUTORS` or `CONTRIBUTORS.txt` or `CONTRIBUTORS.md` etc. 
+
+This file explains who has contributed to the project. When we use a `CONTRIBUTORS` file in our projects, we ask people how they want to be listed, such as by their name, handle, email address, website link, etc. 
+
+Compare this file to the file `AUTHORS`.
 
 
 ## AUTHORS
 
-`AUTHORS` or `AUTHORS.txt` or `AUTHORS.md` etc. is a file that lists people who are significant authors of the project, such as the people who are legally related to the work. The GNU project states "Only the contributions that are legally significant for copyright purposes (see Legally Significant) need to be listed. Small contributions, bug reports, ideas, etc., can be omitted." Compare this file to the file `CONTRIBUTORS`.
+File: `AUTHORS` or `AUTHORS.txt` or `AUTHORS.md` etc. 
+
+This file lists people who are significant authors of the project, such as the people who are legally related to the work. The GNU project states "Only the contributions that are legally significant for copyright purposes (see Legally Significant) need to be listed. Small contributions, bug reports, ideas, etc., can be omitted." 
+
+Compare this file to the file `CONTRIBUTORS`.
 
 
 ## ACKNOWLEDGMENTS
 
-`ACKNOWLEDGMENTS` or `ACKNOWLEDGMENTS.txt` or `ACKNOWLEDGMENTS.md` etc. is a file that describes related work, such as other projects that are dependencies, or libraries, or modules, or have their own copyrights or licenses that you want to include in your project.
+File: `ACKNOWLEDGMENTS` or `ACKNOWLEDGMENTS.txt` or `ACKNOWLEDGMENTS.md` etc. 
+
+This file explains relevant related work, such as other projects that are dependencies, or libraries, or modules, or have their own copyrights or licenses that you want to include in your project.
 
 
 ## CODEOWNERS
 
-https://help.github.com/articles/about-codeowners/
+File: `CODEOWNERS`
 
-`CODEOWNERS` is a file that defines individuals or teams that are responsible for code in a repository.
+Help: <https://help.github.com/articles/about-codeowners/>
+
+This file defines individuals or teams that are responsible for code in a repository. 
 
 Code owners are automatically requested for review when someone opens a pull request that modifies code that they own. When someone with admin or owner permissions has enabled required reviews, they also can optionally require approval from a code owner before the author can merge a pull request in the repository.
 
 
 ## ISSUE_TEMPLATE
 
-- Help: <https://help.github.com/articles/creating-an-issue-template-for-your-repository/>
-- Awesome list: <https://github.com/devspace/awesome-github-templates>
+File: `ISSUE_TEMPLATE`
+
+Help: <https://help.github.com/articles/creating-an-issue-template-for-your-repository/>
+
+Awesome list: <https://github.com/devspace/awesome-github-templates>
 
 When you add an issue template to your repository, project contributors will automatically see the template's contents in the issue body. Templates customize and standardize the information you'd like included when contributors open issues.
 
-https://blog.github.com/2018-01-25-multiple-issue-and-pull-request-templates/
+See <https://blog.github.com/2018-01-25-multiple-issue-and-pull-request-templates/>
 
 To add multiple issue templates to a repository create an `ISSUE_TEMPLATE/` directory in your project root. Within that `ISSUE_TEMPLATE/` directory you can create as many issue templates as you need, for example `ISSUE_TEMPLATE/bugs.md`.
 
 
 ## PULL_REQUEST_TEMPLATE
 
-- Help: <https://help.github.com/articles/creating-a-pull-request-template-for-your-repository/>
-- Awesome list: <https://github.com/devspace/awesome-github-templates>
+File: `PULL_REQUEST_TEMPLATE` or can be a subdirectory
 
-When you add a `PULL_REQUEST_TEMPLATE` file to your repository, project contributors will automatically see the template's contents in the pull request body. Templates customize and standardize the information you'd like included when contributors create pull requests.
+Help: <https://help.github.com/articles/creating-a-pull-request-template-for-your-repository/>
 
-https://blog.github.com/2018-01-25-multiple-issue-and-pull-request-templates/
+Awesome list: <https://github.com/devspace/awesome-github-templates>
+
+This file triggers project contributors to automatically see the template's contents in a new pull request body. The template can customize and standardize the information you'd like included when contributors create pull requests.
+
+See <https://blog.github.com/2018-01-25-multiple-issue-and-pull-request-templates/>
 
 You can create a `PULL_REQUEST_TEMPLATE/` subdirectory in any of the supported folders to contain multiple pull request templates. Use the template query parameter to specify the template that will automatically fill the pull request body. For more information, see "[About automation for issues and pull requests with query parameters.](https://help.github.com/articles/about-automation-for-issues-and-pull-requests-with-query-parameters/)"
 
 
 ## CITATION.cff
 
-- Help: <https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-citation-files>
+File: `CITATION.cff`
 
-You can add a CITATION.cff file to the root of a repository to let others know how you would like them to cite your work. 
-When you add a CITATION.cff file to the default branch of your repository, it is automatically linked from the repository landing page.
+Help: <https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-citation-files>
 
-The citation file format is plain text with human- and machine-readable citation information.
+This file explains how you would like people to cite your work. The citation file format is plain text with human-readable and machine-readable citation information.
+
+When you add this file to the default branch root directory of your repository, then GitHub automatically links to it from the repository landing page.
 
 
-## FUNDING
+## FUNDING.yml
 
-- Help: <https://docs.github.com/en/github/administering-a-repository/managing-repository-settings/displaying-a-sponsor-button-in-your-repository>
+File: `.github/FUNDING.yml`
 
-You can configure your sponsor button by adding a `.github/FUNDING.yml` file in your repository on the default branch. You can configure the button to include sponsored developers in GitHub Sponsors, external funding platforms, or a custom funding URL.
+Help: <https://docs.github.com/en/github/administering-a-repository/managing-repository-settings/displaying-a-sponsor-button-in-your-repository>
+
+You can configure your sponsor button by adding a  file in your repository on the default branch. You can configure the button to include sponsored developers in GitHub Sponsors, external funding platforms, or a custom funding URL.
 
 
 ## dependabot.yml
 
-- Help: <https://github.com/dependabot>
+File: `.github/dependabot.yml`
 
-- File: `.github/dependabot.yml`
+Help: <https://github.com/dependabot>
 
 Dependabot is a GitHub tool that provides automated dependency updates. To enable updates, create a Dependabot configuration file and add it to a repository. The file describes the dependencies to update, where dependency manifests are located, etc. If Dependbot discovers that an update is available, then Dependabot sends you a pull request to update your dependency.
 
 
 ## Jekyll
 
-- Help: <https://jekyllrb.com/docs/structure/>
+Files and diretories: see below
+
+Help: <https://jekyllrb.com/docs/structure/>
 
 GitHub uses Jekyll to compile static sites for hosting through its GitHub Pages service.  Jekyll configuration is read directly from the repository.
 
@@ -197,3 +241,11 @@ The following files and directories are used by Jekyll:
 All other files in the repository are included in the generated site without additional processing.
 
 
+## Tracking
+
+* Package: github-special-files-and-paths
+* Version: 9.0.0
+* Created: 2017-08-22T00:00:00Z
+* Updated: 2022-02-21T17:07:56Z
+* License: GPL-2.0-or-later or contact us for custom license
+* Contact: Joel Parker Henderson (joel@sixarm.com)
