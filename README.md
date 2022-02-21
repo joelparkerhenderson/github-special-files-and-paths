@@ -50,11 +50,11 @@ For a general overview see [building a strong community](https://help.github.com
 
 ## README
 
-- File: `README` or `README.txt` or `README.md` etc.
+File: `README` or `README.txt` or `README.md` etc.
 
-- Help: <https://help.github.com/articles/about-readmes/>
+Help: <https://help.github.com/articles/about-readmes/>
 
-- Awesome list: <https://github.com/matiassingers/awesome-readme>
+Awesome list: <https://github.com/matiassingers/awesome-readme>
 
 This file that explains your project, what it does, why it is useful, etc. 
 
