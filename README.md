@@ -107,7 +107,7 @@ GitHub links to this file, under the "Policy" link on the "Security" tab of your
 
   * Awesome: list: <https://i-sight.com/resources/18-of-the-best-code-of-conduct-examples/>
 
-This file explains how to engage in a community, and how to inclusive environment that respects all people, and how to address any problems among members of your project's community.
+This file explains how to engage in a community, and how to foster an inclusive environment that respects all people, and how to address any problems among members of your project's community.
 
 
 ## CONTRIBUTING
