@@ -226,6 +226,13 @@ Dependabot is a GitHub tool that provides automated dependency updates. To enabl
 
 A workflow is a configurable automated process made up of one or more jobs. You must create a YAML file to define your workflow configuration. Workflow files use YAML syntax, and must have file extension `.yml` or `.yaml`.
 
+## CNAME
+
+  * File: `CNAME`
+  
+  * Help: <https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/managing-a-custom-domain-for-your-github-pages-site>
+
+When using GitHub Pages with a custom domain (<https://www.example.org> rather than <https://example.github.io>), the `CNAME` file specifies the domains that should be directed to the generated site.
 
 ## Jekyll
 
