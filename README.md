@@ -4,29 +4,29 @@
 
 GitHub uses special files such as `README` and `LICENSE`, and special paths such as `/.github` and `/docs`, to improve repository managment and developer interactions.  This page is a summary. We welcome pull requests.
 
-- [Introduction {#introduction}](#introduction-introduction)
-- [README {#readme}](#readme-readme)
-- [CHANGELOG {#changelog}](#changelog-changelog)
-- [LICENSE {#license}](#license-license)
-- [SUPPORT {#support}](#support-support)
-- [SECURITY {#security}](#security-security)
-- [CODE\_OF\_CONDUCT {#code-of-conduct}](#code_of_conduct-code-of-conduct)
-- [CONTRIBUTING {#contributing}](#contributing-contributing)
-- [CONTRIBUTORS {#contributors}](#contributors-contributors)
-- [AUTHORS {#authors}](#authors-authors)
-- [ACKNOWLEDGMENTS {#acknowledgements}](#acknowledgments-acknowledgements)
-- [CODEOWNERS {#codeowners}](#codeowners-codeowners)
-- [ISSUE\_TEMPLATE {#issue-template}](#issue_template-issue-template)
-- [PULL\_REQUEST\_TEMPLATE {#pull-request-template}](#pull_request_template-pull-request-template)
-- [CITATION.cff {#citation-cff}](#citationcff-citation-cff)
-- [FUNDING.yml {#funding-yml}](#fundingyml-funding-yml)
-- [dependabot.yml {#dependabot-yml}](#dependabotyml-dependabot-yml)
-- [Workflows {#workflows}](#workflows-workflows)
-- [Jekyll {#jekyll}](#jekyll-jekyll)
-- [Tracking {#tracking}](#tracking-tracking)
+- <a href="#introduction">Introduction</a>
+- <a href="#readme">README</a>
+- <a href="#changelog">CHANGELOG</a>
+- <a href="#license">LICENSE</a>
+- <a href="#support">SUPPORT</a>
+- <a href="#security">SECURITY</a>
+- <a href="#code-of-conduct">CODE_OF_CONDUCT</a>
+- <a href="#contributing">CONTRIBUTING</a>
+- <a href="#contributors">CONTRIBUTORS</a>
+- <a href="#authors">AUTHORS</a>
+- <a href="#acknowledgments">ACKNOWLEDGMENTS</a>
+- <a href="#codeowners">CODEOWNERS</a>
+- <a href="#issue-template">ISSUE_TEMPLATE</a>
+- <a href="#pull-request-template">PULL_REQUEST_TEMPLATE</a>
+- <a href="#citation-cff">CITATION.cff</a>
+- <a href="#funding-yml">FUNDING.yml</a>
+- <a href="#dependabot-yml">dependabot.yml</a>
+- <a href="#workflows">Workflows</a>
+- <a href="#jekyll">Jekyll</a>
+- <a href="#tracking">Tracking</a>
 
 
-## Introduction {#introduction}
+<h2 id="#introduction">Introduction</h2>
 
 GitHub special files can typically be written with a variety of formats and file name extensions:
 
@@ -49,7 +49,7 @@ The special files and paths are sometimes also known as community health files, 
 For a general overview see [building a strong community](https://help.github.com/categories/building-a-strong-community/) and [GitHub's Open Source Guides](https://opensource.guide/).
 
 
-## README {#readme}
+<h2 id="#readme">README</h2>
 
   * File: `README` or `README.txt` or `README.md` etc.
 
@@ -62,13 +62,13 @@ This file that explains your project, what it does, why it is useful, etc.
 This file is often the first item a visitor will see when visiting your repository, because GitHub automatically shows this file to repository visitors.
 
 
-## CHANGELOG {#changelog}
+<h2 id="#changelog">CHANGELOG</h2>
 
   * File: `CHANGELOG` or `CHANGELOG.txt` or `CHANGELOG.md` etc. 
 
 
 
-## LICENSE {#license}
+<h2 id="#license">LICENSE</h2>
 
   * File: `LICENSE` or `LICENSE.txt` or `LICENSE.md` etc. 
 
@@ -81,14 +81,14 @@ If you want help to choose a license, then try https://choosealicense.com
 If your project is significant, or contains other peoples' work or intellectual property, then you may want to consult with a lawyer who can help you with your specific goals and needs. If you don't provide a license, then in some locations a default copyright law will apply.
 
 
-## SUPPORT {#support}
+<h2 id="#support">SUPPORT</h2>
 
   * File: `SUPPORT` or `SUPPORT.txt` or `SUPPORT.md` etc. 
 
 This file explains how a reader can get help with the repository and project. Github links this file on the page "New Issue". Unlike the "CONTRIBUTING" file, GitHub does not link this file on the page "New Pull Request".
 
 
-## SECURITY {#security}
+<h2 id="#security">SECURITY</h2>
 
   * File: `SECURITY` or `SECURITY.txt` or `SECURITY.md` etc.
 
@@ -99,7 +99,7 @@ This file explains the project's security policies, such as a list of versions t
 GitHub links to this file, under the "Policy" link on the "Security" tab of your repository.
 
 
-## CODE_OF_CONDUCT {#code-of-conduct}
+<h2 id="#code-of-conduct">CODE_OF_CONDUCT</h2>
 
   * File: `CODE_OF_CONDUCT` or `CODE_OF_CONDUCT.txt` or `CODE_OF_CONDUCT.md` etc.
 
@@ -110,7 +110,7 @@ GitHub links to this file, under the "Policy" link on the "Security" tab of your
 This file explains how to engage in a community, and how to foster an inclusive environment that respects all people, and how to address any problems among members of your project's community.
 
 
-## CONTRIBUTING {#contributing}
+<h2 id="#contributing">CONTRIBUTING</h2>
 
   * File: `CONTRIBUTING` or `CONTRIBUTING.txt` or `CONTRIBUTING.md` etc.
 
@@ -123,7 +123,7 @@ This file explains how people can contribute to the project. This file can help 
 GitHub links to this file, on the page "New Issue" and the page "New Pull Request".
 
 
-## CONTRIBUTORS {#contributors}
+<h2 id="#contributors">CONTRIBUTORS</h2>
 
   * File: `CONTRIBUTORS` or `CONTRIBUTORS.txt` or `CONTRIBUTORS.md` etc. 
 
@@ -132,7 +132,7 @@ This file explains who has contributed to the project. When we use a `CONTRIBUTO
 Compare this file to the file `AUTHORS`.
 
 
-## AUTHORS {#authors}
+<h2 id="#authors">AUTHORS</h2>
 
   * File: `AUTHORS` or `AUTHORS.txt` or `AUTHORS.md` etc. 
 
@@ -141,14 +141,14 @@ This file lists people who are significant authors of the project, such as the p
 Compare this file to the file `CONTRIBUTORS`.
 
 
-## ACKNOWLEDGMENTS {#acknowledgements}
+<h2 id="#acknowledgements">ACKNOWLEDGMENTS</h2>
 
   * File: `ACKNOWLEDGMENTS` or `ACKNOWLEDGMENTS.txt` or `ACKNOWLEDGMENTS.md` etc. 
 
 This file explains relevant related work, such as other projects that are dependencies, or libraries, or modules, or have their own copyrights or licenses that you want to include in your project.
 
 
-## CODEOWNERS {#codeowners}
+<h2 id="#codeowners">CODEOWNERS</h2>
 
   * File: `CODEOWNERS`
 
@@ -159,7 +159,7 @@ This file defines individuals or teams that are responsible for code in a reposi
 Code owners are automatically requested for review when someone opens a pull request that modifies code that they own. When someone with admin or owner permissions has enabled required reviews, they also can optionally require approval from a code owner before the author can merge a pull request in the repository.
 
 
-## ISSUE_TEMPLATE {#issue-template}
+<h2 id="#issue-template">ISSUE_TEMPLATE</h2>
 
   * File: `ISSUE_TEMPLATE`
 
@@ -174,7 +174,7 @@ See <https://blog.github.com/2018-01-25-multiple-issue-and-pull-request-template
 To add multiple issue templates to a repository create an `ISSUE_TEMPLATE/` directory in your project root. Within that `ISSUE_TEMPLATE/` directory you can create as many issue templates as you need, for example `ISSUE_TEMPLATE/bugs.md`.
 
 
-## PULL_REQUEST_TEMPLATE {#pull-request-template}
+<h2 id="#pull-request-template">PULL_REQUEST_TEMPLATE</h2>
 
   * File: `PULL_REQUEST_TEMPLATE` or can be a subdirectory
 
@@ -189,7 +189,7 @@ See <https://blog.github.com/2018-01-25-multiple-issue-and-pull-request-template
 You can create a `PULL_REQUEST_TEMPLATE/` subdirectory in any of the supported folders to contain multiple pull request templates. Use the template query parameter to specify the template that will automatically fill the pull request body. For more information, see "[About automation for issues and pull requests with query parameters.](https://help.github.com/articles/about-automation-for-issues-and-pull-requests-with-query-parameters/)"
 
 
-## CITATION.cff {#citation-cff}
+<h2 id="#citation-cff">CITATION.cff</h2>
 
   * File: `CITATION.cff`
 
@@ -200,7 +200,7 @@ This file explains how you would like people to cite your work. The citation fil
 When you add this file to the default branch root directory of your repository, then GitHub automatically links to it from the repository landing page.
 
 
-## FUNDING.yml {#funding-yml}
+<h2 id="#funding-yml">FUNDING.yml</h2>
 
   * File: `.github/FUNDING.yml`
 
@@ -209,7 +209,7 @@ When you add this file to the default branch root directory of your repository, 
 You can configure your sponsor button by adding a  file in your repository on the default branch. You can configure the button to include sponsored developers in GitHub Sponsors, external funding platforms, or a custom funding URL.
 
 
-## dependabot.yml {#dependabot-yml}
+<h2 id="#dependabot-yml">dependabot.yml</h2>
 
   * File: `.github/dependabot.yml`
 
@@ -218,7 +218,7 @@ You can configure your sponsor button by adding a  file in your repository on th
 Dependabot is a GitHub tool that provides automated dependency updates. To enable updates, create a Dependabot configuration file and add it to a repository. The file describes the dependencies to update, where dependency manifests are located, etc. If Dependbot discovers that an update is available, then Dependabot sends you a pull request to update your dependency.
 
 
-## Workflows {#workflows}
+<h2 id="#workflows">Workflows</h2>
 
   * Directory: `.github/workflows`
 
@@ -227,7 +227,7 @@ Dependabot is a GitHub tool that provides automated dependency updates. To enabl
 A workflow is a configurable automated process made up of one or more jobs. You must create a YAML file to define your workflow configuration. Workflow files use YAML syntax, and must have file extension `.yml` or `.yaml`.
 
 
-## Jekyll {#jekyll}
+<h2 id="#jekyll">Jekyll</h2>
 
 Files and diretories: see below
 
@@ -251,7 +251,7 @@ The following files and directories are used by Jekyll:
 All other files in the repository are included in the generated site without additional processing.
 
 
-## Tracking {#tracking}
+<h2 id="#tracking">Tracking</h2>
 
 * Package: github-special-files-and-paths
 * Version: 5.0.0
