@@ -5,7 +5,7 @@
 GitHub uses special files such as `README` and `LICENSE`, and special paths such as `/.github` and `/docs`, to improve repository managment and developer interactions.  This page is a summary. We welcome pull requests.
 
 * [Introduction](#introduction)
-* [README](#readme)
+* [README](#user-content-readme)
 * [CHANGELOG](#changelog)
 * [LICENSE](#license)
 * [SUPPORT](#support)
