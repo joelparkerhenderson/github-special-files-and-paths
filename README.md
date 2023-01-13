@@ -2,10 +2,12 @@
 
 <img src="README.png" alt="GitHub special files and paths" style="width: 100%;"/>
 
-GitHub uses special files such as `README` and `LICENSE`, and special paths such as `/.github` and `/docs`, to improve repository managment and developer interactions.  This page is a summary. We welcome pull requests.
+GitHub uses special files such as `README` and `LICENSE`, special paths such as `/.github` and `/docs`, and special repositories like `<org>/.github` or `<user>/<user>`, to improve repository managment and developer interactions.  This page is a summary. We welcome pull requests.
 
 - <a href="#introduction">Introduction</a>
 - <a href="#readme">README</a>
+    - <a href="#profile-readme">&lt;username>/&lt;username>/README</a>
+    - <a href="#org-readme">&lt;org>/&lt;.github[-private]/README</a>
 - <a href="#changelog">CHANGELOG</a>
 - <a href="#license">LICENSE</a>
 - <a href="#support">SUPPORT</a>
@@ -59,8 +61,23 @@ For a general overview see [building a strong community](https://help.github.com
 
 This file that explains your project, what it does, why it is useful, etc. 
 
-This file is often the first item a visitor will see when visiting your repository, because GitHub automatically shows this file to repository visitors.
+This file is often the first item a visitor will see when visiting your repository, because GitHub automatically shows this file to repository visitors.  README files in subdirectories will display when visitors view that subdirectory in the GitHub website.
 
+<h3 id="profile-readme">Profile README</h3>
+
+  * Repository: `<username>/<username>`
+
+  * Help: <https://docs.github.com/en/account-and-profile/setting-up-and-managing-your-github-profile/customizing-your-profile/managing-your-profile-readme>
+
+A README file in the root of a repository that has the same name as your username, e.g. [mojombo/mojombo](https://github.com/mojombo/mojombo), will be shown at the top of your profile page.
+
+<h3 id="org-readme">Organization README</h3>
+
+  * Repository: `<org>/.github` or `<org>/.github-private`
+
+  * Help: <https://docs.github.com/en/organizations/collaborating-with-groups-in-organizations/customizing-your-organizations-profile>
+
+A README file in the root of an organization repository called `.github`, .e.g. [github/.github](https://github.com/github/.github), will be shown to visitors at the top of the organization profile page.  An equivalent file in the root of an organization repository called `.github-private` will be shown to logged in organization members.
 
 <h2 id="changelog">CHANGELOG</h2>
 
@@ -87,6 +104,7 @@ If your project is significant, or contains other peoples' work or intellectual 
 
 This file explains how a reader can get help with the repository and project. Github links this file on the page "New Issue". Unlike the "CONTRIBUTING" file, GitHub does not link this file on the page "New Pull Request".
 
+Default `SUPPORT` files that apply across all repositories can be placed in an organizations's `.github` repository, see <https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/creating-a-default-community-health-file>.
 
 <h2 id="security">SECURITY</h2>
 
@@ -98,6 +116,7 @@ This file explains the project's security policies, such as a list of versions t
 
 GitHub links to this file, under the "Policy" link on the "Security" tab of your repository.
 
+Default `SECURITY` files that apply across all repositories can be placed in an organizations's `.github` repository, see <https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/creating-a-default-community-health-file>.
 
 <h2 id="code-of-conduct">CODE_OF_CONDUCT</h2>
 
@@ -108,6 +127,8 @@ GitHub links to this file, under the "Policy" link on the "Security" tab of your
   * Awesome: list: <https://i-sight.com/resources/18-of-the-best-code-of-conduct-examples/>
 
 This file explains how to engage in a community, and how to foster an inclusive environment that respects all people, and how to address any problems among members of your project's community.
+
+Default `CODE_OF_CONDUCT` files that apply across all repositories can be placed in an organizations's `.github` repository, see <https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/creating-a-default-community-health-file>.
 
 
 <h2 id="contributing">CONTRIBUTING</h2>
@@ -122,6 +143,7 @@ This file explains how people can contribute to the project. This file can help 
 
 GitHub links to this file, on the page "New Issue" and the page "New Pull Request".
 
+Default `CONTRIBUTING` files that apply across all repositories can be placed in an organizations's `.github` repository, see <https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/creating-a-default-community-health-file>.
 
 <h2 id="contributors">CONTRIBUTORS</h2>
 
@@ -173,6 +195,7 @@ See <https://blog.github.com/2018-01-25-multiple-issue-and-pull-request-template
 
 To add multiple issue templates to a repository create an `ISSUE_TEMPLATE/` directory in your project root. Within that `ISSUE_TEMPLATE/` directory you can create as many issue templates as you need, for example `ISSUE_TEMPLATE/bugs.md`.
 
+Default `ISSUE_TEMPLATE` files that apply across all repositories can be placed in an organizations's `.github` repository, see <https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/creating-a-default-community-health-file>.
 
 <h2 id="pull-request-template">PULL_REQUEST_TEMPLATE</h2>
 
@@ -208,6 +231,7 @@ When you add this file to the default branch root directory of your repository, 
 
 You can configure your sponsor button by adding a  file in your repository on the default branch. You can configure the button to include sponsored developers in GitHub Sponsors, external funding platforms, or a custom funding URL.
 
+Default `FUNDING.yml` files that apply across all repositories can be placed in an organizations's `.github` repository, see <https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/creating-a-default-community-health-file>.
 
 <h2 id="dependabot-yml">dependabot.yml</h2>
 
