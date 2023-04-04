@@ -91,7 +91,7 @@ A README file in the root of an organization repository called `.github`, .e.g. 
 
   * Help: <https://help.github.com/articles/adding-a-license-to-a-repository/>
 
-This file explains the respostory's legal license, such as any legal rights, any copyright restrictions, etc. If you include a detectable license in your repository, people who visit your repository will see it at the top of the repository page.
+This file explains the repository's legal license, such as any legal rights, any copyright restrictions, etc. If you include a detectable license in your repository, people who visit your repository will see it at the top of the repository page.
 
 If you want help to choose a license, then try https://choosealicense.com
 
