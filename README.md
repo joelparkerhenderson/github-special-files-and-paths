@@ -57,9 +57,11 @@ For a general overview see [building a strong community](https://help.github.com
 
   * Help: <https://help.github.com/articles/about-readmes/>
 
+  * Directory: `./`
+
   * Awesome: list: <https://github.com/matiassingers/awesome-readme>
 
-This file that explains your project, what it does, why it is useful, etc. 
+A README file describes your project, what it does, why it is useful, etc. 
 
 This file is often the first item a visitor will see when visiting your repository, because GitHub automatically shows this file to repository visitors.  README files in subdirectories will display when visitors view that subdirectory in the GitHub website.
 
@@ -83,6 +85,9 @@ A README file in the root of an organization repository called `.github`, .e.g. 
 
   * File: `CHANGELOG` or `CHANGELOG.txt` or `CHANGELOG.md` etc. 
 
+  * Directories: `./` `./.github/` `./docs/`
+
+A CHANGELOG file describes the changes in the project, such as version changes, feature additions, and bug fixes.
 
 
 <h2 id="license">LICENSE</h2>
@@ -90,6 +95,8 @@ A README file in the root of an organization repository called `.github`, .e.g. 
   * File: `LICENSE` or `LICENSE.txt` or `LICENSE.md` etc. 
 
   * Help: <https://help.github.com/articles/adding-a-license-to-a-repository/>
+
+  * Directories: `./` `./.github/` `./docs/`
 
 This file explains the repository's legal license, such as any legal rights, any copyright restrictions, etc. If you include a detectable license in your repository, people who visit your repository will see it at the top of the repository page.
 
@@ -102,6 +109,8 @@ If your project is significant, or contains other peoples' work or intellectual 
 
   * File: `SUPPORT` or `SUPPORT.txt` or `SUPPORT.md` etc. 
 
+  * Directories: `./` `./.github/` `./docs/`
+
 This file explains how a reader can get help with the repository and project. Github links this file on the page "New Issue". Unlike the "CONTRIBUTING" file, GitHub does not link this file on the page "New Pull Request".
 
 Default `SUPPORT` files that apply across all repositories can be placed in an organizations's `.github` repository, see <https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/creating-a-default-community-health-file>.
@@ -111,6 +120,8 @@ Default `SUPPORT` files that apply across all repositories can be placed in an o
   * File: `SECURITY` or `SECURITY.txt` or `SECURITY.md` etc.
 
   * Help: <https://help.github.com/en/articles/adding-a-security-policy-to-your-repository>
+
+  * Directories: `./` `./.github/` `./docs/`
 
 This file explains the project's security policies, such as a list of versions that are currently being maintained with security updates. This file also provides instructions on how users can submit a report of a vulnerability. 
 
@@ -123,6 +134,8 @@ Default `SECURITY` files that apply across all repositories can be placed in an 
   * File: `CODE_OF_CONDUCT` or `CODE_OF_CONDUCT.txt` or `CODE_OF_CONDUCT.md` etc.
 
   * Help: <https://help.github.com/articles/adding-a-code-of-conduct-to-your-project/>
+
+  * Directories: `./` `./.github/` `./docs/`
 
   * Awesome: list: <https://i-sight.com/resources/18-of-the-best-code-of-conduct-examples/>
 
@@ -137,6 +150,8 @@ Default `CODE_OF_CONDUCT` files that apply across all repositories can be placed
 
   * Help: <https://help.github.com/articles/setting-guidelines-for-repository-contributors/>
 
+  * Directories: `./` `./.github/` `./docs/`
+
   * Awesome: list: <https://github.com/mntnr/awesome-contributing>
 
 This file explains how people can contribute to the project. This file can help verify people are submitting well-formed pull requests and opening useful issues. 
@@ -149,6 +164,8 @@ Default `CONTRIBUTING` files that apply across all repositories can be placed in
 
   * File: `CONTRIBUTORS` or `CONTRIBUTORS.txt` or `CONTRIBUTORS.md` etc. 
 
+  * Directories: `./` `./.github/` `./docs/`
+
 This file explains who has contributed to the project. When we use a `CONTRIBUTORS` file in our projects, we ask people how they want to be listed, such as by their name, handle, email address, website link, etc. 
 
 Compare this file to the file `AUTHORS`.
@@ -157,6 +174,8 @@ Compare this file to the file `AUTHORS`.
 <h2 id="authors">AUTHORS</h2>
 
   * File: `AUTHORS` or `AUTHORS.txt` or `AUTHORS.md` etc. 
+
+  * Directories: `./` `./.github/` `./docs/`
 
 This file lists people who are significant authors of the project, such as the people who are legally related to the work. The GNU project states "Only the contributions that are legally significant for copyright purposes (see Legally Significant) need to be listed. Small contributions, bug reports, ideas, etc., can be omitted." 
 
@@ -167,6 +186,8 @@ Compare this file to the file `CONTRIBUTORS`.
 
   * File: `ACKNOWLEDGMENTS` or `ACKNOWLEDGMENTS.txt` or `ACKNOWLEDGMENTS.md` etc. 
 
+  * Directories: `./` `./.github/` `./docs/`
+
 This file explains relevant related work, such as other projects that are dependencies, or libraries, or modules, or have their own copyrights or licenses that you want to include in your project.
 
 
@@ -175,6 +196,8 @@ This file explains relevant related work, such as other projects that are depend
   * File: `CODEOWNERS`
 
   * Help: <https://help.github.com/articles/about-codeowners/>
+
+  * Directories: `./` `./.github/` `./docs/`
 
 This file defines individuals or teams that are responsible for code in a repository. 
 
@@ -186,6 +209,8 @@ Code owners are automatically requested for review when someone opens a pull req
   * File: `ISSUE_TEMPLATE`
 
   * Help: <https://help.github.com/articles/creating-an-issue-template-for-your-repository/>
+
+  * Directories: `./` `./.github/` `./docs/` or `./ISSUE_TEMPLATE/`
 
   * Awesome: list: <https://github.com/devspace/awesome-github-templates>
 
@@ -203,6 +228,8 @@ Default `ISSUE_TEMPLATE` files that apply across all repositories can be placed 
 
   * Help: <https://help.github.com/articles/creating-a-pull-request-template-for-your-repository/>
 
+  * Directories: `./` `./.github/` `./docs/`
+
   * Awesome: list: <https://github.com/devspace/awesome-github-templates>
 
 This file triggers project contributors to automatically see the template's contents in a new pull request body. The template can customize and standardize the information you'd like included when contributors create pull requests.
@@ -217,6 +244,8 @@ You can create a `PULL_REQUEST_TEMPLATE/` subdirectory in any of the supported f
   * File: `CITATION.cff`
 
   * Help: <https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-citation-files>
+
+  * Directories: `./` `./.github/` `./docs/`
 
 This file explains how you would like people to cite your work. The citation file format is plain text with human-readable and machine-readable citation information.
 
@@ -285,8 +314,8 @@ All other files in the repository are included in the generated site without add
 <h2 id="tracking">Tracking</h2>
 
 * Package: github-special-files-and-paths
-* Version: 5.0.0
+* Version: 5.1.0
 * Created: 2017-08-22T00:00:00Z
-* Updated: 2022-02-21T17:07:56Z
+* Updated: 2023-08-02T13:01:05Z
 * License: GPL-2.0-or-later or contact us for custom license
 * Contact: Joel Parker Henderson (joel@sixarm.com)
