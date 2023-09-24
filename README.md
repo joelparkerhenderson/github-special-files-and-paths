@@ -241,11 +241,11 @@ You can create a `PULL_REQUEST_TEMPLATE/` subdirectory in any of the supported f
 
 <h2 id="citation-cff">CITATION.cff</h2>
 
-  * File: `CITATION.cff`
+  * File: `CITATION.cff` or `CITATION` or `CITATIONS` or `CITATION.bib` Or `CITATIONS.bib` or `CITATION.md` or `CITATIONS.md`
 
   * Help: <https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-citation-files>
 
-  * Directories: `./` `./.github/` `./docs/`
+  * Directories: `./` or special case `inst/CITATION` for R packages.
 
 This file explains how you would like people to cite your work. The citation file format is plain text with human-readable and machine-readable citation information.
 
