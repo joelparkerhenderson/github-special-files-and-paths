@@ -40,9 +40,11 @@ GitHub special files can typically be written with a variety of formats and file
 
 GitHub special files are typically located at the repository top level or in special paths:
 
-  * `/.github` is a hidden dot file directory.
+  * `./` is the top level
+  
+  * `./.github` is a hidden dot file directory specifically for GitHub files
 
-  * `/docs` is a typical documentation directory.
+  * `./docs` is a typical documentation directory.
 
   * Custom paths, such as the directory `ISSUE_TEMPLATE`.
 
@@ -57,7 +59,7 @@ For a general overview see [building a strong community](https://help.github.com
 
   * Help: <https://help.github.com/articles/about-readmes/>
 
-  * Directory: `./`
+  * Directories: `./` `./.github/` `./docs/`
 
   * Awesome: list: <https://github.com/matiassingers/awesome-readme>
 
