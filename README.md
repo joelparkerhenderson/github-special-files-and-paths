@@ -57,7 +57,7 @@ For a general overview see [building a strong community](https://help.github.com
 
   * File: `README` or `README.txt` or `README.md` etc.
 
-  * Help: <https://help.github.com/articles/about-readmes/>
+  * Help: <https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-readmes>
 
   * Directories: `./` `./.github/` `./docs/`
 
