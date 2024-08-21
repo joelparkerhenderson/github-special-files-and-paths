@@ -122,7 +122,7 @@ Default `SECURITY` files that apply across all repositories can be placed in an 
 
 This file explains how to engage in a community, and how to foster an inclusive environment that respects all people, and how to address any problems among members of your project's community.
 
-Default `CODE_OF_CONDUCT` files that apply across all repositories can be placed in an organization's `.github` repository.
+Default `CODE_OF_CONDUCT` files that apply across all repositories can be placed in an organization's `.github` repository. See [Creating a default community health file](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/creating-a-default-community-health-file)
 
 ## CONTRIBUTING
 
@@ -135,7 +135,7 @@ This file explains how people can contribute to the project. This file can help 
 
 GitHub links to this file, on the page "New Issue" and the page "New Pull Request".
 
-Default `CONTRIBUTING` files that apply across all repositories can be placed in an organization's `.github` repository.
+Default `CONTRIBUTING` files that apply across all repositories can be placed in an organization's `.github` repository. See [Creating a default community health file](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/creating-a-default-community-health-file)
 
 ## CONTRIBUTORS
 
@@ -215,7 +215,7 @@ When you add this file to the default branch root directory of your repository, 
 
 You can configure your sponsor button by adding a  file in your repository on the default branch. You can configure the button to include sponsored developers in GitHub Sponsors, external funding platforms, or a custom funding URL.
 
-Default `FUNDING.yml` files that apply across all repositories can be placed in an organization's `.github` repository.
+Default `FUNDING.yml` files that apply across all repositories can be placed in an organization's `.github` repository. See [Creating a default community health file](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/creating-a-default-community-health-file)
 
 ## dependabot.yml
 
