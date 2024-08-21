@@ -2,7 +2,7 @@
 
 <img src="README.png" alt="GitHub special files and paths" style="width: 100%;"/>
 
-GitHub uses special files such as `README` and `LICENSE`, special paths such as `/.github` and `/docs`, and special repositories like `<org>/.github` or `<user>/<user>`, to improve repository managment and developer interactions.  This page is a summary. We welcome pull requests.
+GitHub uses special files such as `README` and `LICENSE`, special paths such as `/.github` and `/docs`, and special repositories like `<org>/.github` or `<user>/<user>`, to improve repository management and developer interactions.  This page is a summary. We welcome pull requests.
 
 - [Introduction](#introduction)
 - [README](#readme)
@@ -99,9 +99,9 @@ If your project is significant, or contains other peoples' work or intellectual 
 * File: `SUPPORT` or `SUPPORT.txt` or `SUPPORT.md` etc.
 * Directories: `./` `./.github/` `./docs/`
 
-This file explains how a reader can get help with the repository and project. Github links this file on the page "New Issue". Unlike the "CONTRIBUTING" file, GitHub does not link this file on the page "New Pull Request".
+This file explains how a reader can get help with the repository and project. GitHub links this file on the page "New Issue". Unlike the "CONTRIBUTING" file, GitHub does not link this file on the page "New Pull Request".
 
-Default `SUPPORT` files that apply across all repositories can be placed in an organizations's `.github` repository, see <https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/creating-a-default-community-health-file>.
+Default `SUPPORT` files that apply across all repositories can be placed in an organization's `.github` repository, see <https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/creating-a-default-community-health-file>.
 
 ## SECURITY
 
@@ -113,7 +113,7 @@ This file explains the project's security policies, such as a list of versions t
 
 GitHub links to this file, under the "Policy" link on the "Security" tab of your repository.
 
-Default `SECURITY` files that apply across all repositories can be placed in an organizations's `.github` repository, see <https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/creating-a-default-community-health-file>.
+Default `SECURITY` files that apply across all repositories can be placed in an organization's `.github` repository, see <https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/creating-a-default-community-health-file>.
 
 ## CODE_OF_CONDUCT
 
@@ -124,7 +124,7 @@ Default `SECURITY` files that apply across all repositories can be placed in an 
 
 This file explains how to engage in a community, and how to foster an inclusive environment that respects all people, and how to address any problems among members of your project's community.
 
-Default `CODE_OF_CONDUCT` files that apply across all repositories can be placed in an organizations's `.github` repository, see <https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/creating-a-default-community-health-file>.
+Default `CODE_OF_CONDUCT` files that apply across all repositories can be placed in an organization's `.github` repository, see <https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/creating-a-default-community-health-file>.
 
 
 ## CONTRIBUTING
@@ -138,7 +138,7 @@ This file explains how people can contribute to the project. This file can help 
 
 GitHub links to this file, on the page "New Issue" and the page "New Pull Request".
 
-Default `CONTRIBUTING` files that apply across all repositories can be placed in an organizations's `.github` repository, see <https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/creating-a-default-community-health-file>.
+Default `CONTRIBUTING` files that apply across all repositories can be placed in an organization's `.github` repository, see <https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/creating-a-default-community-health-file>.
 
 ## CONTRIBUTORS
 
@@ -192,7 +192,7 @@ See <https://blog.github.com/2018-01-25-multiple-issue-and-pull-request-template
 
 To add multiple issue templates to a repository create an `ISSUE_TEMPLATE/` directory in your project root. Within that `ISSUE_TEMPLATE/` directory you can create as many issue templates as you need, for example `ISSUE_TEMPLATE/bugs.md`.
 
-Default `ISSUE_TEMPLATE` files that apply across all repositories can be placed in an organizations's `.github` repository, see <https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/creating-a-default-community-health-file>.
+Default `ISSUE_TEMPLATE` files that apply across all repositories can be placed in an organization's `.github` repository, see <https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/creating-a-default-community-health-file>.
 
 ## PULL_REQUEST_TEMPLATE
 
@@ -226,14 +226,14 @@ When you add this file to the default branch root directory of your repository, 
 
 You can configure your sponsor button by adding a  file in your repository on the default branch. You can configure the button to include sponsored developers in GitHub Sponsors, external funding platforms, or a custom funding URL.
 
-Default `FUNDING.yml` files that apply across all repositories can be placed in an organizations's `.github` repository, see <https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/creating-a-default-community-health-file>.
+Default `FUNDING.yml` files that apply across all repositories can be placed in an organization's `.github` repository, see <https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/creating-a-default-community-health-file>.
 
 ## dependabot.yml
 
 * File: `.github/dependabot.yml`
 * Help: <https://github.com/dependabot>
 
-Dependabot is a GitHub tool that provides automated dependency updates. To enable updates, create a Dependabot configuration file and add it to a repository. The file describes the dependencies to update, where dependency manifests are located, etc. If Dependbot discovers that an update is available, then Dependabot sends you a pull request to update your dependency.
+Dependabot is a GitHub tool that provides automated dependency updates. To enable updates, create a Dependabot configuration file and add it to a repository. The file describes the dependencies to update, where dependency manifests are located, etc. If Dependabot discovers that an update is available, then Dependabot sends you a pull request to update your dependency.
 
 
 ## Workflows
@@ -252,7 +252,7 @@ When using GitHub Pages with a custom domain (<https://www.example.org> rather t
 
 ## Jekyll
 
-Files and diretories: see below
+Files and directories: see below
 
 * Help: <https://jekyllrb.com/docs/structure/>
 
