@@ -1,34 +1,34 @@
-# GitHub special files and paths
+# GitHub Special Files and Paths
 
 <img src="README.png" alt="GitHub special files and paths" style="width: 100%;"/>
 
 GitHub uses special files such as `README` and `LICENSE`, special paths such as `/.github` and `/docs`, and special repositories like `<org>/.github` or `<user>/<user>`, to improve repository managment and developer interactions.  This page is a summary. We welcome pull requests.
 
-- <a href="#introduction">Introduction</a>
-- <a href="#readme">README</a>
-    - <a href="#profile-readme">&lt;username>/&lt;username>/README</a>
-    - <a href="#org-readme">&lt;org>/&lt;.github[-private]/README</a>
-- <a href="#changelog">CHANGELOG</a>
-- <a href="#license">LICENSE</a>
-- <a href="#support">SUPPORT</a>
-- <a href="#security">SECURITY</a>
-- <a href="#code-of-conduct">CODE_OF_CONDUCT</a>
-- <a href="#contributing">CONTRIBUTING</a>
-- <a href="#contributors">CONTRIBUTORS</a>
-- <a href="#authors">AUTHORS</a>
-- <a href="#acknowledgments">ACKNOWLEDGMENTS</a>
-- <a href="#codeowners">CODEOWNERS</a>
-- <a href="#issue-template">ISSUE_TEMPLATE</a>
-- <a href="#pull-request-template">PULL_REQUEST_TEMPLATE</a>
-- <a href="#citation-cff">CITATION.cff</a>
-- <a href="#funding-yml">FUNDING.yml</a>
-- <a href="#dependabot-yml">dependabot.yml</a>
-- <a href="#workflows">Workflows</a>
-- <a href="#jekyll">Jekyll</a>
-- <a href="#tracking">Tracking</a>
+- [Introduction](#introduction)
+- [README](#readme)
+    - [Profile README](#profile-readme)
+    - [Organization README](#organization-readme)
+- [CHANGELOG](#changelog)
+- [LICENSE](#license)
+- [SUPPORT](#support)
+- [SECURITY](#security)
+- [CODE_OF_CONDUCT](#code_of_conduct)
+- [CONTRIBUTING](#contributing)
+- [CONTRIBUTORS](#contributors)
+- [AUTHORS](#authors)
+- [ACKNOWLEDGMENTS](#acknowledgments)
+- [CODEOWNERS](#codeowners)
+- [ISSUE_TEMPLATE](#issue_template)
+- [PULL_REQUEST_TEMPLATE](#pull_request_template)
+- [CITATION.cff](#citationcff)
+- [FUNDING.yml](#fundingyml)
+- [dependabot.yml](#dependabotyml)
+- [Workflows](#workflows)
+- [Jekyll](#jekyll)
+- [Tracking](#tracking)
 
 
-<h2 id="introduction">Introduction</h2>
+## Introduction
 
 GitHub special files can typically be written with a variety of formats and file name extensions:
 
@@ -53,7 +53,7 @@ The special files and paths are sometimes also known as community health files, 
 For a general overview see [building a strong community](https://help.github.com/categories/building-a-strong-community/) and [GitHub's Open Source Guides](https://opensource.guide/).
 
 
-<h2 id="readme">README</h2>
+## README
 
   * File: `README` or `README.txt` or `README.md` etc.
 
@@ -67,7 +67,7 @@ A README file describes your project, what it does, why it is useful, etc.
 
 This file is often the first item a visitor will see when visiting your repository, because GitHub automatically shows this file to repository visitors.  README files in subdirectories will display when visitors view that subdirectory in the GitHub website.
 
-<h3 id="profile-readme">Profile README</h3>
+### Profile README
 
   * Repository: `<username>/<username>`
 
@@ -75,7 +75,7 @@ This file is often the first item a visitor will see when visiting your reposito
 
 A README file in the root of a repository that has the same name as your username, e.g. [mojombo/mojombo](https://github.com/mojombo/mojombo), will be shown at the top of your profile page.
 
-<h3 id="org-readme">Organization README</h3>
+### Organization README
 
   * Repository: `<org>/.github` or `<org>/.github-private`
 
@@ -83,7 +83,7 @@ A README file in the root of a repository that has the same name as your usernam
 
 A README file in the root of an organization repository called `.github`, .e.g. [github/.github](https://github.com/github/.github), will be shown to visitors at the top of the organization profile page.  An equivalent file in the root of an organization repository called `.github-private` will be shown to logged in organization members.
 
-<h2 id="changelog">CHANGELOG</h2>
+## CHANGELOG
 
   * File: `CHANGELOG` or `CHANGELOG.txt` or `CHANGELOG.md` etc. 
 
@@ -92,7 +92,7 @@ A README file in the root of an organization repository called `.github`, .e.g. 
 A CHANGELOG file describes the changes in the project, such as version changes, feature additions, and bug fixes.
 
 
-<h2 id="license">LICENSE</h2>
+## LICENSE
 
   * File: `LICENSE` or `LICENSE.txt` or `LICENSE.md` etc. 
 
@@ -107,7 +107,7 @@ If you want help to choose a license, then try https://choosealicense.com
 If your project is significant, or contains other peoples' work or intellectual property, then you may want to consult with a lawyer who can help you with your specific goals and needs. If you don't provide a license, then in some locations a default copyright law will apply.
 
 
-<h2 id="support">SUPPORT</h2>
+## SUPPORT
 
   * File: `SUPPORT` or `SUPPORT.txt` or `SUPPORT.md` etc. 
 
@@ -117,7 +117,7 @@ This file explains how a reader can get help with the repository and project. Gi
 
 Default `SUPPORT` files that apply across all repositories can be placed in an organizations's `.github` repository, see <https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/creating-a-default-community-health-file>.
 
-<h2 id="security">SECURITY</h2>
+## SECURITY
 
   * File: `SECURITY` or `SECURITY.txt` or `SECURITY.md` etc.
 
@@ -131,7 +131,7 @@ GitHub links to this file, under the "Policy" link on the "Security" tab of your
 
 Default `SECURITY` files that apply across all repositories can be placed in an organizations's `.github` repository, see <https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/creating-a-default-community-health-file>.
 
-<h2 id="code-of-conduct">CODE_OF_CONDUCT</h2>
+## CODE_OF_CONDUCT
 
   * File: `CODE_OF_CONDUCT` or `CODE_OF_CONDUCT.txt` or `CODE_OF_CONDUCT.md` etc.
 
@@ -146,7 +146,7 @@ This file explains how to engage in a community, and how to foster an inclusive 
 Default `CODE_OF_CONDUCT` files that apply across all repositories can be placed in an organizations's `.github` repository, see <https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/creating-a-default-community-health-file>.
 
 
-<h2 id="contributing">CONTRIBUTING</h2>
+## CONTRIBUTING
 
   * File: `CONTRIBUTING` or `CONTRIBUTING.txt` or `CONTRIBUTING.md` etc.
 
@@ -162,7 +162,7 @@ GitHub links to this file, on the page "New Issue" and the page "New Pull Reques
 
 Default `CONTRIBUTING` files that apply across all repositories can be placed in an organizations's `.github` repository, see <https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/creating-a-default-community-health-file>.
 
-<h2 id="contributors">CONTRIBUTORS</h2>
+## CONTRIBUTORS
 
   * File: `CONTRIBUTORS` or `CONTRIBUTORS.txt` or `CONTRIBUTORS.md` etc. 
 
@@ -173,7 +173,7 @@ This file explains who has contributed to the project. When we use a `CONTRIBUTO
 Compare this file to the file `AUTHORS`.
 
 
-<h2 id="authors">AUTHORS</h2>
+## AUTHORS
 
   * File: `AUTHORS` or `AUTHORS.txt` or `AUTHORS.md` etc. 
 
@@ -184,7 +184,7 @@ This file lists people who are significant authors of the project, such as the p
 Compare this file to the file `CONTRIBUTORS`.
 
 
-<h2 id="acknowledgements">ACKNOWLEDGMENTS</h2>
+## ACKNOWLEDGMENTS
 
   * File: `ACKNOWLEDGMENTS` or `ACKNOWLEDGMENTS.txt` or `ACKNOWLEDGMENTS.md` etc. 
 
@@ -193,7 +193,7 @@ Compare this file to the file `CONTRIBUTORS`.
 This file explains relevant related work, such as other projects that are dependencies, or libraries, or modules, or have their own copyrights or licenses that you want to include in your project.
 
 
-<h2 id="codeowners">CODEOWNERS</h2>
+## CODEOWNERS
 
   * File: `CODEOWNERS`
 
@@ -206,7 +206,7 @@ This file defines individuals or teams that are responsible for code in a reposi
 Code owners are automatically requested for review when someone opens a pull request that modifies code that they own. When someone with admin or owner permissions has enabled required reviews, they also can optionally require approval from a code owner before the author can merge a pull request in the repository.
 
 
-<h2 id="issue-template">ISSUE_TEMPLATE</h2>
+## ISSUE_TEMPLATE
 
   * File: `ISSUE_TEMPLATE`
 
@@ -224,7 +224,7 @@ To add multiple issue templates to a repository create an `ISSUE_TEMPLATE/` dire
 
 Default `ISSUE_TEMPLATE` files that apply across all repositories can be placed in an organizations's `.github` repository, see <https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/creating-a-default-community-health-file>.
 
-<h2 id="pull-request-template">PULL_REQUEST_TEMPLATE</h2>
+## PULL_REQUEST_TEMPLATE
 
   * File: `PULL_REQUEST_TEMPLATE` or can be a subdirectory
 
@@ -241,7 +241,7 @@ See <https://blog.github.com/2018-01-25-multiple-issue-and-pull-request-template
 You can create a `PULL_REQUEST_TEMPLATE/` subdirectory in any of the supported folders to contain multiple pull request templates. Use the template query parameter to specify the template that will automatically fill the pull request body. For more information, see "[About automation for issues and pull requests with query parameters.](https://help.github.com/articles/about-automation-for-issues-and-pull-requests-with-query-parameters/)"
 
 
-<h2 id="citation-cff">CITATION.cff</h2>
+## CITATION.cff
 
   * File: `CITATION.cff` or `CITATION` or `CITATIONS` or `CITATION.bib` Or `CITATIONS.bib` or `CITATION.md` or `CITATIONS.md`
 
@@ -254,7 +254,7 @@ This file explains how you would like people to cite your work. The citation fil
 When you add this file to the default branch root directory of your repository, then GitHub automatically links to it from the repository landing page.
 
 
-<h2 id="funding-yml">FUNDING.yml</h2>
+## FUNDING.yml
 
   * File: `.github/FUNDING.yml`
 
@@ -264,7 +264,7 @@ You can configure your sponsor button by adding a  file in your repository on th
 
 Default `FUNDING.yml` files that apply across all repositories can be placed in an organizations's `.github` repository, see <https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/creating-a-default-community-health-file>.
 
-<h2 id="dependabot-yml">dependabot.yml</h2>
+## dependabot.yml
 
   * File: `.github/dependabot.yml`
 
@@ -273,7 +273,7 @@ Default `FUNDING.yml` files that apply across all repositories can be placed in 
 Dependabot is a GitHub tool that provides automated dependency updates. To enable updates, create a Dependabot configuration file and add it to a repository. The file describes the dependencies to update, where dependency manifests are located, etc. If Dependbot discovers that an update is available, then Dependabot sends you a pull request to update your dependency.
 
 
-<h2 id="workflows">Workflows</h2>
+## Workflows
 
   * Directory: `.github/workflows`
 
@@ -289,7 +289,7 @@ A workflow is a configurable automated process made up of one or more jobs. You 
 
 When using GitHub Pages with a custom domain (<https://www.example.org> rather than <https://example.github.io>), the `CNAME` file specifies the domains that should be directed to the generated site.
 
-<h2 id="jekyll">Jekyll</h2>
+## Jekyll
 
 Files and diretories: see below
 
@@ -313,7 +313,7 @@ The following files and directories are used by Jekyll:
 All other files in the repository are included in the generated site without additional processing.
 
 
-<h2 id="tracking">Tracking</h2>
+## Tracking
 
 * Package: github-special-files-and-paths
 * Version: 5.1.0
