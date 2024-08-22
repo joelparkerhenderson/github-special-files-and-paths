@@ -115,7 +115,7 @@ If your project is significant, or contains other peoples' work or intellectual 
 
 This file explains how a reader can get help with the repository and project. Github links this file on the page "New Issue". Unlike the "CONTRIBUTING" file, GitHub does not link this file on the page "New Pull Request".
 
-Default `SUPPORT` files that apply across all repositories can be placed in an organizations's `.github` repository, see <https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/creating-a-default-community-health-file>.
+Default `SUPPORT` files that apply across all repositories can be placed in an organization's `.github` repository, see <https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/creating-a-default-community-health-file>.
 
 <h2 id="security">SECURITY</h2>
 
@@ -129,7 +129,7 @@ This file explains the project's security policies, such as a list of versions t
 
 GitHub links to this file, under the "Policy" link on the "Security" tab of your repository.
 
-Default `SECURITY` files that apply across all repositories can be placed in an organizations's `.github` repository, see <https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/creating-a-default-community-health-file>.
+Default `SECURITY` files that apply across all repositories can be placed in an organization's `.github` repository, see <https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/creating-a-default-community-health-file>.
 
 <h2 id="code-of-conduct">CODE_OF_CONDUCT</h2>
 
@@ -143,7 +143,7 @@ Default `SECURITY` files that apply across all repositories can be placed in an 
 
 This file explains how to engage in a community, and how to foster an inclusive environment that respects all people, and how to address any problems among members of your project's community.
 
-Default `CODE_OF_CONDUCT` files that apply across all repositories can be placed in an organizations's `.github` repository, see <https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/creating-a-default-community-health-file>.
+Default `CODE_OF_CONDUCT` files that apply across all repositories can be placed in an organization's `.github` repository, see <https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/creating-a-default-community-health-file>.
 
 
 <h2 id="contributing">CONTRIBUTING</h2>
@@ -160,7 +160,7 @@ This file explains how people can contribute to the project. This file can help 
 
 GitHub links to this file, on the page "New Issue" and the page "New Pull Request".
 
-Default `CONTRIBUTING` files that apply across all repositories can be placed in an organizations's `.github` repository, see <https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/creating-a-default-community-health-file>.
+Default `CONTRIBUTING` files that apply across all repositories can be placed in an organization's `.github` repository, see <https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/creating-a-default-community-health-file>.
 
 <h2 id="contributors">CONTRIBUTORS</h2>
 
@@ -222,7 +222,7 @@ See <https://blog.github.com/2018-01-25-multiple-issue-and-pull-request-template
 
 To add multiple issue templates to a repository create an `ISSUE_TEMPLATE/` directory in your project root. Within that `ISSUE_TEMPLATE/` directory you can create as many issue templates as you need, for example `ISSUE_TEMPLATE/bugs.md`.
 
-Default `ISSUE_TEMPLATE` files that apply across all repositories can be placed in an organizations's `.github` repository, see <https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/creating-a-default-community-health-file>.
+Default `ISSUE_TEMPLATE` files that apply across all repositories can be placed in an organization's `.github` repository, see <https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/creating-a-default-community-health-file>.
 
 <h2 id="pull-request-template">PULL_REQUEST_TEMPLATE</h2>
 
@@ -262,7 +262,7 @@ When you add this file to the default branch root directory of your repository, 
 
 You can configure your sponsor button by adding a  file in your repository on the default branch. You can configure the button to include sponsored developers in GitHub Sponsors, external funding platforms, or a custom funding URL.
 
-Default `FUNDING.yml` files that apply across all repositories can be placed in an organizations's `.github` repository, see <https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/creating-a-default-community-health-file>.
+Default `FUNDING.yml` files that apply across all repositories can be placed in an organization's `.github` repository, see <https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/creating-a-default-community-health-file>.
 
 <h2 id="dependabot-yml">dependabot.yml</h2>
 
