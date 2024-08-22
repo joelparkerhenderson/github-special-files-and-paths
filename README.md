@@ -2,7 +2,7 @@
 
 <img src="README.png" alt="GitHub special files and paths" style="width: 100%;"/>
 
-GitHub uses special files such as `README` and `LICENSE`, special paths such as `/.github` and `/docs`, and special repositories like `<org>/.github` or `<user>/<user>`, to improve repository managment and developer interactions.  This page is a summary. We welcome pull requests.
+GitHub uses special files such as `README` and `LICENSE`, special paths such as `/.github` and `/docs`, and special repositories like `<org>/.github` or `<user>/<user>`, to improve repository management and developer interactions.  This page is a summary. We welcome pull requests.
 
 - <a href="#introduction">Introduction</a>
 - <a href="#readme">README</a>
@@ -270,7 +270,7 @@ Default `FUNDING.yml` files that apply across all repositories can be placed in 
 
   * Help: <https://github.com/dependabot>
 
-Dependabot is a GitHub tool that provides automated dependency updates. To enable updates, create a Dependabot configuration file and add it to a repository. The file describes the dependencies to update, where dependency manifests are located, etc. If Dependbot discovers that an update is available, then Dependabot sends you a pull request to update your dependency.
+Dependabot is a GitHub tool that provides automated dependency updates. To enable updates, create a Dependabot configuration file and add it to a repository. The file describes the dependencies to update, where dependency manifests are located, etc. If Dependabot discovers that an update is available, then Dependabot sends you a pull request to update your dependency.
 
 
 <h2 id="workflows">Workflows</h2>
@@ -291,7 +291,7 @@ When using GitHub Pages with a custom domain (<https://www.example.org> rather t
 
 <h2 id="jekyll">Jekyll</h2>
 
-Files and diretories: see below
+Files and directories: see below
 
   * Help: <https://jekyllrb.com/docs/structure/>
 
