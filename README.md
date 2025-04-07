@@ -32,73 +32,82 @@ GitHub uses special files such as `README` and `LICENSE`, special paths such as 
 
 GitHub special files can typically be written with a variety of formats and file name extensions:
 
-  * Freeform text, such as `README` or `README.txt`.
+* Freeform text, such as `README` or `README.txt`.
 
-  * Markup formats, such as `README.markdown` or `README.asciidoc` - see [markups](https://github.com/github/markup/blob/master/README.md#markups)
+* Markup formats, such as `README.markdown` or `README.asciidoc` - see [markups](https://github.com/github/markup/blob/master/README.md#markups)
 
-  * Custom syntaxes, such as the file `CODEOWNERS`.
+* Custom syntaxes, such as the file `CODEOWNERS`.
 
 GitHub special files are typically located at the repository top level or in special paths:
 
-  * `./` is the top level
+* `./` is the top level
   
-  * `./.github` is a hidden dot file directory specifically for GitHub files
+* `./.github` is a hidden dot file directory specifically for GitHub files
 
-  * `./docs` is a typical documentation directory.
+* `./docs` is a typical documentation directory.
 
-  * Custom paths, such as the directory `ISSUE_TEMPLATE`.
+* Custom paths, such as the directory `ISSUE_TEMPLATE`.
 
 The special files and paths are sometimes also known as community health files, recommended repository files, well-known configurations, etc.
 
 For a general overview see [building a strong community](https://help.github.com/categories/building-a-strong-community/) and [GitHub's Open Source Guides](https://opensource.guide/).
 
+Starters:
+
+* The directory `starters` contains placeholder files that you can use and customize.
+
+* To copy the starters to your own repository: `cp -n starters/* your-repo-name/`
+
 
 <h2 id="readme">README</h2>
 
-  * File: `README` or `README.txt` or `README.md` etc.
+* File: `README` or `README.txt` or `README.md` etc.
 
-  * Help: <https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-readmes>
+* Help: <https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-readmes>
 
-  * Directories: `./` `./.github/` `./docs/`
+* Directories: `./` `./.github/` `./docs/`
 
-  * Awesome: list: <https://github.com/matiassingers/awesome-readme>
+* Awesome: list: <https://github.com/matiassingers/awesome-readme>
 
 A README file describes your project, what it does, why it is useful, etc. 
 
 This file is often the first item a visitor will see when visiting your repository, because GitHub automatically shows this file to repository visitors.  README files in subdirectories will display when visitors view that subdirectory in the GitHub website.
 
+
 <h3 id="profile-readme">Profile README</h3>
 
-  * Repository: `<username>/<username>`
+* Repository: `<username>/<username>`
 
-  * Help: <https://docs.github.com/en/account-and-profile/setting-up-and-managing-your-github-profile/customizing-your-profile/managing-your-profile-readme>
+* Help: <https://docs.github.com/en/account-and-profile/setting-up-and-managing-your-github-profile/customizing-your-profile/managing-your-profile-readme>
 
 A README file in the root of a repository that has the same name as your username, e.g. [mojombo/mojombo](https://github.com/mojombo/mojombo), will be shown at the top of your profile page.
 
+
 <h3 id="org-readme">Organization README</h3>
 
-  * Repository: `<org>/.github` or `<org>/.github-private`
+* Repository: `<org>/.github` or `<org>/.github-private`
 
-  * Help: <https://docs.github.com/en/organizations/collaborating-with-groups-in-organizations/customizing-your-organizations-profile>
+* Help: <https://docs.github.com/en/organizations/collaborating-with-groups-in-organizations/customizing-your-organizations-profile>
 
 A README file in the root of an organization repository called `.github`, .e.g. [github/.github](https://github.com/github/.github), will be shown to visitors at the top of the organization profile page.  An equivalent file in the root of an organization repository called `.github-private` will be shown to logged in organization members.
 
+
 <h2 id="changelog">CHANGELOG</h2>
 
-  * File: `CHANGELOG` or `CHANGELOG.txt` or `CHANGELOG.md` etc. 
+* File: `CHANGELOG` or `CHANGELOG.txt` or `CHANGELOG.md` etc. 
 
-  * Directories: `./` `./.github/` `./docs/`
+* Directories: `./` `./.github/` `./docs/`
 
 A CHANGELOG file describes the changes in the project, such as version changes, feature additions, and bug fixes.
 
 
 <h2 id="license">LICENSE</h2>
 
-  * File: `LICENSE` or `LICENSE.txt` or `LICENSE.md` etc. 
+* File: `LICENSE` or `LICENSE.txt` or `LICENSE.md` etc. 
 
-  * Help: <https://help.github.com/articles/adding-a-license-to-a-repository/>
+* Help: <https://help.github.com/articles/adding-a-license-to-a-repository/>
 
-  * Directories: `./` `./.github/` `./docs/`
+* Directories: `./` `./.github/` `./docs/`
 
 This file explains the repository's legal license, such as any legal rights, any copyright restrictions, etc. If you include a detectable license in your repository, people who visit your repository will see it at the top of the repository page.
 
@@ -109,21 +118,22 @@ If your project is significant, or contains other peoples' work or intellectual 
 
 <h2 id="support">SUPPORT</h2>
 
-  * File: `SUPPORT` or `SUPPORT.txt` or `SUPPORT.md` etc. 
+* File: `SUPPORT` or `SUPPORT.txt` or `SUPPORT.md` etc. 
 
-  * Directories: `./` `./.github/` `./docs/`
+* Directories: `./` `./.github/` `./docs/`
 
 This file explains how a reader can get help with the repository and project. GitHub links this file on the page "New Issue". Unlike the "CONTRIBUTING" file, GitHub does not link this file on the page "New Pull Request".
 
 Default `SUPPORT` files that apply across all repositories can be placed in an organization's `.github` repository, see <https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/creating-a-default-community-health-file>.
 
+
 <h2 id="security">SECURITY</h2>
 
-  * File: `SECURITY` or `SECURITY.txt` or `SECURITY.md` etc.
+* File: `SECURITY` or `SECURITY.txt` or `SECURITY.md` etc.
 
-  * Help: <https://help.github.com/en/articles/adding-a-security-policy-to-your-repository>
+* Help: <https://help.github.com/en/articles/adding-a-security-policy-to-your-repository>
 
-  * Directories: `./` `./.github/` `./docs/`
+* Directories: `./` `./.github/` `./docs/`
 
 This file explains the project's security policies, such as a list of versions that are currently being maintained with security updates. This file also provides instructions on how users can submit a report of a vulnerability. 
 
@@ -131,15 +141,16 @@ GitHub links to this file, under the "Policy" link on the "Security" tab of your
 
 Default `SECURITY` files that apply across all repositories can be placed in an organization's `.github` repository, see <https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/creating-a-default-community-health-file>.
 
+
 <h2 id="code-of-conduct">CODE_OF_CONDUCT</h2>
 
-  * File: `CODE_OF_CONDUCT` or `CODE_OF_CONDUCT.txt` or `CODE_OF_CONDUCT.md` etc.
+* File: `CODE_OF_CONDUCT` or `CODE_OF_CONDUCT.txt` or `CODE_OF_CONDUCT.md` etc.
 
-  * Help: <https://help.github.com/articles/adding-a-code-of-conduct-to-your-project/>
+* Help: <https://help.github.com/articles/adding-a-code-of-conduct-to-your-project/>
 
-  * Directories: `./` `./.github/` `./docs/`
+* Directories: `./` `./.github/` `./docs/`
 
-  * Awesome: list: <https://i-sight.com/resources/18-of-the-best-code-of-conduct-examples/>
+* Awesome: list: <https://i-sight.com/resources/18-of-the-best-code-of-conduct-examples/>
 
 This file explains how to engage in a community, and how to foster an inclusive environment that respects all people, and how to address any problems among members of your project's community.
 
@@ -148,13 +159,13 @@ Default `CODE_OF_CONDUCT` files that apply across all repositories can be placed
 
 <h2 id="contributing">CONTRIBUTING</h2>
 
-  * File: `CONTRIBUTING` or `CONTRIBUTING.txt` or `CONTRIBUTING.md` etc.
+* File: `CONTRIBUTING` or `CONTRIBUTING.txt` or `CONTRIBUTING.md` etc.
 
-  * Help: <https://help.github.com/articles/setting-guidelines-for-repository-contributors/>
+* Help: <https://help.github.com/articles/setting-guidelines-for-repository-contributors/>
 
-  * Directories: `./` `./.github/` `./docs/`
+* Directories: `./` `./.github/` `./docs/`
 
-  * Awesome: list: <https://github.com/mntnr/awesome-contributing>
+* Awesome: list: <https://github.com/mntnr/awesome-contributing>
 
 This file explains how people can contribute to the project. This file can help verify people are submitting well-formed pull requests and opening useful issues. 
 
@@ -162,11 +173,12 @@ GitHub links to this file, on the page "New Issue" and the page "New Pull Reques
 
 Default `CONTRIBUTING` files that apply across all repositories can be placed in an organization's `.github` repository, see <https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/creating-a-default-community-health-file>.
 
+
 <h2 id="contributors">CONTRIBUTORS</h2>
 
-  * File: `CONTRIBUTORS` or `CONTRIBUTORS.txt` or `CONTRIBUTORS.md` etc. 
+* File: `CONTRIBUTORS` or `CONTRIBUTORS.txt` or `CONTRIBUTORS.md` etc. 
 
-  * Directories: `./` `./.github/` `./docs/`
+* Directories: `./` `./.github/` `./docs/`
 
 This file explains who has contributed to the project. When we use a `CONTRIBUTORS` file in our projects, we ask people how they want to be listed, such as by their name, handle, email address, website link, etc. 
 
@@ -175,9 +187,9 @@ Compare this file to the file `AUTHORS`.
 
 <h2 id="authors">AUTHORS</h2>
 
-  * File: `AUTHORS` or `AUTHORS.txt` or `AUTHORS.md` etc. 
+* File: `AUTHORS` or `AUTHORS.txt` or `AUTHORS.md` etc. 
 
-  * Directories: `./` `./.github/` `./docs/`
+* Directories: `./` `./.github/` `./docs/`
 
 This file lists people who are significant authors of the project, such as the people who are legally related to the work. The GNU project states "Only the contributions that are legally significant for copyright purposes (see Legally Significant) need to be listed. Small contributions, bug reports, ideas, etc., can be omitted." 
 
@@ -186,20 +198,20 @@ Compare this file to the file `CONTRIBUTORS`.
 
 <h2 id="acknowledgements">ACKNOWLEDGMENTS</h2>
 
-  * File: `ACKNOWLEDGMENTS` or `ACKNOWLEDGMENTS.txt` or `ACKNOWLEDGMENTS.md` etc. 
+* File: `ACKNOWLEDGMENTS` or `ACKNOWLEDGMENTS.txt` or `ACKNOWLEDGMENTS.md` etc. 
 
-  * Directories: `./` `./.github/` `./docs/`
+* Directories: `./` `./.github/` `./docs/`
 
 This file explains relevant related work, such as other projects that are dependencies, or libraries, or modules, or have their own copyrights or licenses that you want to include in your project.
 
 
 <h2 id="codeowners">CODEOWNERS</h2>
 
-  * File: `CODEOWNERS`
+* File: `CODEOWNERS`
 
-  * Help: <https://help.github.com/articles/about-codeowners/>
+* Help: <https://help.github.com/articles/about-codeowners/>
 
-  * Directories: `./` `./.github/` `./docs/`
+* Directories: `./` `./.github/` `./docs/`
 
 This file defines individuals or teams that are responsible for code in a repository. 
 
@@ -208,13 +220,13 @@ Code owners are automatically requested for review when someone opens a pull req
 
 <h2 id="issue-template">ISSUE_TEMPLATE</h2>
 
-  * File: `ISSUE_TEMPLATE`
+* File: `ISSUE_TEMPLATE`
 
-  * Help: <https://help.github.com/articles/creating-an-issue-template-for-your-repository/>
+* Help: <https://help.github.com/articles/creating-an-issue-template-for-your-repository/>
 
-  * Directories: `./` `./.github/` `./docs/` or `./ISSUE_TEMPLATE/`
+* Directories: `./` `./.github/` `./docs/` or `./ISSUE_TEMPLATE/`
 
-  * Awesome: list: <https://github.com/devspace/awesome-github-templates>
+* Awesome: list: <https://github.com/devspace/awesome-github-templates>
 
 When you add an issue template to your repository, project contributors will automatically see the template's contents in the issue body. Templates customize and standardize the information you'd like included when contributors open issues.
 
@@ -224,15 +236,16 @@ To add multiple issue templates to a repository create an `ISSUE_TEMPLATE/` dire
 
 Default `ISSUE_TEMPLATE` files that apply across all repositories can be placed in an organization's `.github` repository, see <https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/creating-a-default-community-health-file>.
 
+
 <h2 id="pull-request-template">PULL_REQUEST_TEMPLATE</h2>
 
-  * File: `PULL_REQUEST_TEMPLATE` or can be a subdirectory
+* File: `PULL_REQUEST_TEMPLATE` or can be a subdirectory
 
-  * Help: <https://help.github.com/articles/creating-a-pull-request-template-for-your-repository/>
+* Help: <https://help.github.com/articles/creating-a-pull-request-template-for-your-repository/>
 
-  * Directories: `./` `./.github/` `./docs/`
+* Directories: `./` `./.github/` `./docs/`
 
-  * Awesome: list: <https://github.com/devspace/awesome-github-templates>
+* Awesome: list: <https://github.com/devspace/awesome-github-templates>
 
 This file triggers project contributors to automatically see the template's contents in a new pull request body. The template can customize and standardize the information you'd like included when contributors create pull requests.
 
@@ -243,11 +256,11 @@ You can create a `PULL_REQUEST_TEMPLATE/` subdirectory in any of the supported f
 
 <h2 id="citation-cff">CITATION.cff</h2>
 
-  * File: `CITATION.cff` or `CITATION` or `CITATIONS` or `CITATION.bib` Or `CITATIONS.bib` or `CITATION.md` or `CITATIONS.md`
+* File: `CITATION.cff` or `CITATION` or `CITATIONS` or `CITATION.bib` Or `CITATIONS.bib` or `CITATION.md` or `CITATIONS.md`
 
-  * Help: <https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-citation-files>
+* Help: <https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-citation-files>
 
-  * Directories: `./` or special case `inst/CITATION` for R packages.
+* Directories: `./` or special case `inst/CITATION` for R packages.
 
 This file explains how you would like people to cite your work. The citation file format is plain text with human-readable and machine-readable citation information.
 
@@ -256,9 +269,9 @@ When you add this file to the default branch root directory of your repository, 
 
 <h2 id="funding-yml">FUNDING.yml</h2>
 
-  * File: `.github/FUNDING.yml`
+* File: `.github/FUNDING.yml`
 
-  * Help: <https://docs.github.com/en/github/administering-a-repository/managing-repository-settings/displaying-a-sponsor-button-in-your-repository>
+* Help: <https://docs.github.com/en/github/administering-a-repository/managing-repository-settings/displaying-a-sponsor-button-in-your-repository>
 
 You can configure your sponsor button by adding a  file in your repository on the default branch. You can configure the button to include sponsored developers in GitHub Sponsors, external funding platforms, or a custom funding URL.
 
@@ -266,26 +279,26 @@ Default `FUNDING.yml` files that apply across all repositories can be placed in 
 
 <h2 id="dependabot-yml">dependabot.yml</h2>
 
-  * File: `.github/dependabot.yml`
+* File: `.github/dependabot.yml`
 
-  * Help: <https://github.com/dependabot>
+* Help: <https://github.com/dependabot>
 
 Dependabot is a GitHub tool that provides automated dependency updates. To enable updates, create a Dependabot configuration file and add it to a repository. The file describes the dependencies to update, where dependency manifests are located, etc. If Dependabot discovers that an update is available, then Dependabot sends you a pull request to update your dependency.
 
 
 <h2 id="workflows">Workflows</h2>
 
-  * Directory: `.github/workflows`
+* Directory: `.github/workflows`
 
-  * Help: <https://docs.github.com/en/actions/using-workflows/workflow-syntax-for-github-actions>
+* Help: <https://docs.github.com/en/actions/using-workflows/workflow-syntax-for-github-actions>
 
 A workflow is a configurable automated process made up of one or more jobs. You must create a YAML file to define your workflow configuration. Workflow files use YAML syntax, and must have file extension `.yml` or `.yaml`.
 
 ## CNAME
 
-  * File: `CNAME`
+* File: `CNAME`
   
-  * Help: <https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/managing-a-custom-domain-for-your-github-pages-site>
+* Help: <https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/managing-a-custom-domain-for-your-github-pages-site>
 
 When using GitHub Pages with a custom domain (<https://www.example.org> rather than <https://example.github.io>), the `CNAME` file specifies the domains that should be directed to the generated site.
 
@@ -293,7 +306,7 @@ When using GitHub Pages with a custom domain (<https://www.example.org> rather t
 
 Files and directories: see below
 
-  * Help: <https://jekyllrb.com/docs/structure/>
+* Help: <https://jekyllrb.com/docs/structure/>
 
 GitHub uses Jekyll to compile static sites for hosting through its GitHub Pages service.  Jekyll configuration is read directly from the repository.
 
@@ -316,8 +329,8 @@ All other files in the repository are included in the generated site without add
 <h2 id="tracking">Tracking</h2>
 
 * Package: github-special-files-and-paths
-* Version: 5.1.0
+* Version: 5.2.0
 * Created: 2017-08-22T00:00:00Z
-* Updated: 2023-08-02T13:01:05Z
+* Updated: 2025-04-07T20:08:39Z
 * License: GPL-2.0-or-later or contact us for custom license
 * Contact: Joel Parker Henderson (joel@sixarm.com)

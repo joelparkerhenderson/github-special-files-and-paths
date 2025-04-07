@@ -1,0 +1,21 @@
+cff-version: 1.2.0
+title: GitHub special files and paths
+message: >-
+  If you use this work and you want to cite it,
+  then you can use the metadata from this file.
+type: software
+authors:
+  - given-names: Joel Parker
+    family-names: Henderson
+    email: joel@joelparkerhenderson.com
+    affiliation: joelparkerhenderson.com
+    orcid: 'https://orcid.org/0009-0000-4681-282X'
+identifiers:
+  - type: url
+    value: 'https://github.com/joelparkerhenderson/github-special-files-and-paths/'
+    description: GitHub special files and paths
+repository-code: 'https://github.com/joelparkerhenderson/github-special-files-and-paths/'
+abstract: >-
+  GitHub special files and paths, such as README, LICENSE,
+  .github, docs, dependabot, workflows. 
+license: GPL-2.0+

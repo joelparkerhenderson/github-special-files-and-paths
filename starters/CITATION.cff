@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+title: Your Title Here
+message: >-
+  Your message here. 
+  You can use multiple lines.
+type: software
+authors:
+  - given-names: Your Given Names
+    family-names: Your Family Names
+    email: you@example.com
+    orcid: 'https://orcid.org/0000-0000-0000-0000'
+identifiers:
+  - type: url
+    value: https://example.com
+    description: Your description here
+repository-code: https://github.com/joelparkerhenderson/github-special-files-and-paths/
+abstract: >-
+  Your abstract here.
+  You can use multiple lines.
+license: GPL-2.0+
