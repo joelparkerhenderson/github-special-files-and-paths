@@ -89,7 +89,7 @@ A README file in the root of a repository that has the same name as your usernam
 
 * Help: <https://docs.github.com/en/organizations/collaborating-with-groups-in-organizations/customizing-your-organizations-profile>
 
-A README file in the root of an organization repository called `.github`, .e.g. [github/.github](https://github.com/github/.github), will be shown to visitors at the top of the organization profile page.  An equivalent file in the root of an organization repository called `.github-private` will be shown to logged in organization members.
+A README file in the `profile/` folder of an organization repository called `.github`, .e.g. [github/.github](https://github.com/github/.github), will be shown to visitors at the top of the organization profile page.  An equivalent file in an organization repository called `.github-private` will be shown to logged in organization members.
 
 
 <h2 id="changelog">CHANGELOG</h2>
