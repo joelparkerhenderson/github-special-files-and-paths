@@ -48,6 +48,8 @@ GitHub special files are typically located at the repository top level or in spe
 
 * Custom paths, such as the directory `ISSUE_TEMPLATE`.
 
+Although the documentation does not stipulate this as a general rule, files in `.github/` tend to "take precedence" over complementary files in `./`. For example, although this is probably bad practice anyway, if a repository has both `./CONTRIBUTING.md` and `.github/CONTRIBUTING.md`, the information in `.github/CONTRIBUTING.md` will be shown to visitors when they click the "Contributing" icon from the repo root. One notable exception to this is the `LICENSE` file - GitHub will only identify a repository's license (when it comes to the GitHub API, and with respect to what it displays on the repository's "landing page") if the file is placed at `./`. (There is no indication that this has any legal bearing, but is merely a convention of the GitHub UI.)
+
 The special files and paths are sometimes also known as community health files, recommended repository files, well-known configurations, etc.
 
 For a general overview see [building a strong community](https://help.github.com/categories/building-a-strong-community/) and [GitHub's Open Source Guides](https://opensource.guide/).
