@@ -7,7 +7,7 @@ GitHub uses special files such as `README` and `LICENSE`, special paths such as 
 - <a href="#introduction">Introduction</a>
 - <a href="#readme">README</a>
     - <a href="#profile-readme">&lt;username>/&lt;username>/README</a>
-    - <a href="#org-readme">&lt;org>/&lt;.github[-private]/README</a>
+    - <a href="#org-readme">&lt;org>/.github[-private]/README</a>
 - <a href="#changelog">CHANGELOG</a>
 - <a href="#license">LICENSE</a>
 - <a href="#support">SUPPORT</a>
